@@ -1,0 +1,199 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Reed-Muller Decoder/Encoder in VHDL: generic_adder_pipelined Entity  Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Reed-Muller Decoder/Encoder in VHDL
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="pages.html"><span>Pagine&#160;collegate</span></a></li>
+      <li><a href="modules.html"><span>Moduli</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Design&#160;Units</span></a></li>
+      <li><a href="inherits.html"><span>Design&#160;Unit&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Design&#160;Unit&#160;Members</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classgeneric__adder__pipelined.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Gruppi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pagine</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#Generics">Generics</a> &#124;
+<a href="#Ports">Ports</a> &#124;
+<a href="#Libraries">Libraries</a> &#124;
+<a href="#Use Clauses">Use Clauses</a>  </div>
+  <div class="headertitle">
+<div class="title">generic_adder_pipelined Entity Reference<div class="ingroups"><a class="el" href="group___majority_voter.html">MajorityVoter</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Implementazione VHDL <a class="el" href="classgeneric__adder__pipelined_1_1_structural.html">Structural</a> di un addizionatore generico pipelined : M operandi di N bit.  
+ <a href="classgeneric__adder__pipelined.html#details">Continua...</a></p>
+<div class="dynheader">
+Diagramma delle classi per generic_adder_pipelined</div>
+<div class="dyncontent">
+<div class="center"><img src="classgeneric__adder__pipelined__inherit__graph.png" border="0" usemap="#generic__adder__pipelined_inherit__map" alt="Inheritance graph"/></div>
+<map name="generic__adder__pipelined_inherit__map" id="generic__adder__pipelined_inherit__map">
+<area shape="rect" id="node6" href="classmajority__voter.html" title="Implementazione VHDL Structural del majority voter. " alt="" coords="77,304,181,331"/><area shape="rect" id="node2" href="classadder__block.html" title="Implementazione VHDL Structural di un generico livello del componente generic_adder. Tale livello è costituito da 2^level addizionatori che lavorano in parallelo, di dimensione dipendente dal livello corrente: N = number_bit_for_operand + log2(number_operand)&#45;level&#45;1. " alt="" coords="23,155,115,181"/><area shape="rect" id="node3" href="classripple__carry__adder.html" title="Implementazione VHDL Structural di un Ripple Carry Adder generico a N bit. " alt="" coords="5,80,133,107"/><area shape="rect" id="node4" href="classfull__adder.html" title="full_adder" alt="" coords="30,5,109,32"/><area shape="rect" id="node5" href="class_generic_buffer.html" title="Registro di dimensione generica. " alt="" coords="139,155,242,181"/><area shape="rect" id="node7" href="class_r_m_decoder.html" title="Implementazione VHDL del decodificatore per codici di Reed&#45;Muller(1,m) " alt="" coords="83,379,175,405"/><area shape="rect" id="node8" href="classtb___r_m_decoder.html" title="tb_RMDecoder" alt="" coords="74,453,185,480"/></map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<div class="dynheader">
+Diagramma di collaborazione per generic_adder_pipelined:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgeneric__adder__pipelined__coll__graph.png" border="0" usemap="#generic__adder__pipelined_coll__map" alt="Collaboration graph"/></div>
+<map name="generic__adder__pipelined_coll__map" id="generic__adder__pipelined_coll__map">
+<area shape="rect" id="node2" href="classadder__block.html" title="Implementazione VHDL Structural di un generico livello del componente generic_adder. Tale livello è costituito da 2^level addizionatori che lavorano in parallelo, di dimensione dipendente dal livello corrente: N = number_bit_for_operand + log2(number_operand)&#45;level&#45;1. " alt="" coords="23,155,115,181"/><area shape="rect" id="node3" href="classripple__carry__adder.html" title="Implementazione VHDL Structural di un Ripple Carry Adder generico a N bit. " alt="" coords="5,80,133,107"/><area shape="rect" id="node4" href="classfull__adder.html" title="full_adder" alt="" coords="30,5,109,32"/><area shape="rect" id="node5" href="class_generic_buffer.html" title="Registro di dimensione generica. " alt="" coords="139,155,242,181"/></map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Entities</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgeneric__adder__pipelined_1_1_structural.html">Structural</a> &#160;</td><td class="memItemRight" valign="bottom">architecture</td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Libraries"></a>
+Libraries</h2></td></tr>
+ <tr class="memitem:gae4f03c286607f3181e16b9aa12d0c6d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae4f03c286607f3181e16b9aa12d0c6d4"></a>
+<a class="el" href="group___majority_voter.html#gae4f03c286607f3181e16b9aa12d0c6d4">IEEE</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Use Clauses"></a>
+Use Clauses</h2></td></tr>
+ <tr class="memitem:gaa4b2b25246a821511120e3149b003563"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa4b2b25246a821511120e3149b003563"></a>
+<a class="el" href="group___majority_voter.html#gaa4b2b25246a821511120e3149b003563">STD_LOGIC_1164</a>&#160;</td><td class="memItemRight" valign="bottom">  </td></tr>
+<tr class="memitem:gae00f3f04545af57582ff10609eee23e2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae00f3f04545af57582ff10609eee23e2"></a>
+<a class="el" href="group___majority_voter.html#gae00f3f04545af57582ff10609eee23e2">NUMERIC_STD</a>&#160;</td><td class="memItemRight" valign="bottom">  </td></tr>
+<tr class="memitem:ga6af860958a1bb510ee63ced87b57e11a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6af860958a1bb510ee63ced87b57e11a"></a>
+<a class="el" href="group___majority_voter.html#ga6af860958a1bb510ee63ced87b57e11a">MATH_REAL</a>&#160;</td><td class="memItemRight" valign="bottom">  </td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Generics"></a>
+Generics</h2></td></tr>
+ <tr class="memitem:ga391d71eb279c0942fd4f72f35110ebcf"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga391d71eb279c0942fd4f72f35110ebcf"></a>
+<a class="el" href="group___majority_voter.html#ga391d71eb279c0942fd4f72f35110ebcf">number_operand</a> &#160;</td><td class="memItemRight" valign="bottom"><b><b><span class="vhdlchar">NATURAL</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">2</span> <span class="vhdlchar"> </span></b></b></td></tr>
+<tr class="memitem:gae919dbd8a1b11697f75ab57736802493"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae919dbd8a1b11697f75ab57736802493"></a>
+<a class="el" href="group___majority_voter.html#gae919dbd8a1b11697f75ab57736802493">number_bit_for_operand</a> &#160;</td><td class="memItemRight" valign="bottom"><b><b><span class="vhdlchar">NATURAL</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">3</span> <span class="vhdlchar"> </span></b></b></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Ports"></a>
+Ports</h2></td></tr>
+ <tr class="memitem:ga6231b307b7958b6060563aa2a93d345a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6231b307b7958b6060563aa2a93d345a"></a>
+<a class="el" href="group___majority_voter.html#ga6231b307b7958b6060563aa2a93d345a">clk</a> &#160;</td><td class="memItemRight" valign="bottom"> <b><b><span class="vhdlchar">in</span><span class="vhdlchar"> </span></b></b> <b><span class="vhdlchar">STD_LOGIC</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:ga8881084de0fcf748e41bd0fd1028445e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8881084de0fcf748e41bd0fd1028445e"></a>
+<a class="el" href="group___majority_voter.html#ga8881084de0fcf748e41bd0fd1028445e">reset_n</a> &#160;</td><td class="memItemRight" valign="bottom"> <b><b><span class="vhdlchar">in</span><span class="vhdlchar"> </span></b></b> <b><span class="vhdlchar">STD_LOGIC</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:ga359e3b0c94c0e1466b7a2b503b3623be"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga359e3b0c94c0e1466b7a2b503b3623be"></a>
+<a class="el" href="group___majority_voter.html#ga359e3b0c94c0e1466b7a2b503b3623be">data_in</a> &#160;</td><td class="memItemRight" valign="bottom"> <b><b><span class="vhdlchar">in</span><span class="vhdlchar"> </span></b></b> <b><span class="vhdlchar">STD_LOGIC_VECTOR</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">number_operand</span><span class="vhdlchar">*</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">number_bit_for_operand</span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="vhdlchar">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:ga7087cf66799b189f1ad9c93f82a39a50"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7087cf66799b189f1ad9c93f82a39a50"></a>
+<a class="el" href="group___majority_voter.html#ga7087cf66799b189f1ad9c93f82a39a50">data_out</a> &#160;</td><td class="memItemRight" valign="bottom"> <b><b><span class="vhdlchar">out</span><span class="vhdlchar"> </span></b></b> <b><span class="vhdlchar">STD_LOGIC_VECTOR</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">number_bit_for_operand</span><span class="vhdlchar">+</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">natural</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar">log2</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar">real</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar">number_operand</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="vhdlchar">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrizione dettagliata</h2>
+<div class="textblock"><p>Implementazione VHDL <a class="el" href="classgeneric__adder__pipelined_1_1_structural.html">Structural</a> di un addizionatore generico pipelined : M operandi di N bit. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">number_operand[in]</td><td>parametro che determina il numero di operandi dell' addizionatore </td></tr>
+    <tr><td class="paramname">number_bit_for_operand[in]</td><td>parametro che determina il numero di bit di ogni operando</td></tr>
+    <tr><td class="paramname">clk[in]</td><td>segnale di clock </td></tr>
+    <tr><td class="paramname">reset_n[in]</td><td>segnale di reset asincrono, attivo basso </td></tr>
+    <tr><td class="paramname">data_in[in]</td><td>stringa di bit di input di dimensione (number_operand * number_bit_for_operand) che è la concatenzaione degli operandi da sommare </td></tr>
+    <tr><td class="paramname">data_out[out]</td><td>stringa di bit di uscita di dimensione (number_bit_for_operand + natural(log2(real(number_operand)))) che è la somma totale degli operandi di ingresso </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><hr/>La documentazione per questa classe è stata generata a partire dal seguente file:<ul>
+<li>RMDecoder/MajorityVoter/<a class="el" href="generic__adder__pipelined_8vhd.html">generic_adder_pipelined.vhd</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classgeneric__adder__pipelined.html">generic_adder_pipelined</a></li>
+    <li class="footer">Generato Mer 17 Mag 2017 00:07:35 per Reed-Muller Decoder/Encoder in VHDL da
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
+  </ul>
+</div>
+</body>
+</html>

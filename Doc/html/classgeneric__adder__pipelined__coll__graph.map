@@ -1,0 +1,6 @@
+<map id="generic_adder_pipelined" name="generic_adder_pipelined">
+<area shape="rect" id="node2" href="$classadder__block.html" title="Implementazione VHDL Structural di un generico livello del componente generic_adder. Tale livello è costituito da 2^level addizionatori che lavorano in parallelo, di dimensione dipendente dal livello corrente: N = number_bit_for_operand + log2(number_operand)&#45;level&#45;1. " alt="" coords="23,155,115,181"/>
+<area shape="rect" id="node3" href="$classripple__carry__adder.html" title="Implementazione VHDL Structural di un Ripple Carry Adder generico a N bit. " alt="" coords="5,80,133,107"/>
+<area shape="rect" id="node4" href="$classfull__adder.html" title="full_adder" alt="" coords="30,5,109,32"/>
+<area shape="rect" id="node5" href="$class_generic_buffer.html" title="Registro di dimensione generica. " alt="" coords="139,155,242,181"/>
+</map>

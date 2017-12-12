@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Reed-Muller Decoder/Encoder in VHDL: generic_comparator Entity  Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Reed-Muller Decoder/Encoder in VHDL
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="pages.html"><span>Pagine&#160;collegate</span></a></li>
+      <li><a href="modules.html"><span>Moduli</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Design&#160;Units</span></a></li>
+      <li><a href="inherits.html"><span>Design&#160;Unit&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Design&#160;Unit&#160;Members</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classgeneric__comparator.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Gruppi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pagine</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#Generics">Generics</a> &#124;
+<a href="#Ports">Ports</a> &#124;
+<a href="#Libraries">Libraries</a> &#124;
+<a href="#Use Clauses">Use Clauses</a>  </div>
+  <div class="headertitle">
+<div class="title">generic_comparator Entity Reference<div class="ingroups"><a class="el" href="group___majority_voter.html">MajorityVoter</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Implementazione VHDL <a class="el" href="classgeneric__comparator_1_1_structural.html">Structural</a> di un generico comparatore a maggioranza di due stringhe di width bit. Tale implementazione genera una catena di "width" comparatori a 2 bit.  
+ <a href="classgeneric__comparator.html#details">Continua...</a></p>
+<div class="dynheader">
+Diagramma delle classi per generic_comparator</div>
+<div class="dyncontent">
+<div class="center"><img src="classgeneric__comparator__inherit__graph.png" border="0" usemap="#generic__comparator_inherit__map" alt="Inheritance graph"/></div>
+<map name="generic__comparator_inherit__map" id="generic__comparator_inherit__map">
+<area shape="rect" id="node3" href="classmajority__voter.html" title="Implementazione VHDL Structural del majority voter. " alt="" coords="21,155,125,181"/><area shape="rect" id="node2" href="classcomparator2bit.html" title="Implementazione VHDL Data Flow di un comparatore a 2 bit che tiene conto anche del risutato di un con..." alt="" coords="19,5,127,32"/><area shape="rect" id="node4" href="class_r_m_decoder.html" title="Implementazione VHDL del decodificatore per codici di Reed&#45;Muller(1,m) " alt="" coords="27,229,119,256"/><area shape="rect" id="node5" href="classtb___r_m_decoder.html" title="tb_RMDecoder" alt="" coords="18,304,129,331"/></map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<div class="dynheader">
+Diagramma di collaborazione per generic_comparator:</div>
+<div class="dyncontent">
+<div class="center"><img src="classgeneric__comparator__coll__graph.png" border="0" usemap="#generic__comparator_coll__map" alt="Collaboration graph"/></div>
+<map name="generic__comparator_coll__map" id="generic__comparator_coll__map">
+<area shape="rect" id="node2" href="classcomparator2bit.html" title="Implementazione VHDL Data Flow di un comparatore a 2 bit che tiene conto anche del risutato di un con..." alt="" coords="19,5,127,32"/></map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Entities</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classgeneric__comparator_1_1_structural.html">Structural</a> &#160;</td><td class="memItemRight" valign="bottom">architecture</td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Libraries"></a>
+Libraries</h2></td></tr>
+ <tr class="memitem:gae4f03c286607f3181e16b9aa12d0c6d4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gae4f03c286607f3181e16b9aa12d0c6d4"></a>
+<a class="el" href="group___majority_voter.html#gae4f03c286607f3181e16b9aa12d0c6d4">IEEE</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Use Clauses"></a>
+Use Clauses</h2></td></tr>
+ <tr class="memitem:gaa4b2b25246a821511120e3149b003563"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa4b2b25246a821511120e3149b003563"></a>
+<a class="el" href="group___majority_voter.html#gaa4b2b25246a821511120e3149b003563">STD_LOGIC_1164</a>&#160;</td><td class="memItemRight" valign="bottom">  </td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Generics"></a>
+Generics</h2></td></tr>
+ <tr class="memitem:ga93ec5006d2e0a77a21f35a7e3c1ca827"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga93ec5006d2e0a77a21f35a7e3c1ca827"></a>
+<a class="el" href="group___majority_voter.html#ga93ec5006d2e0a77a21f35a7e3c1ca827">width</a> &#160;</td><td class="memItemRight" valign="bottom"><b><b><span class="vhdlchar">NATURAL</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">8</span> <span class="vhdlchar"> </span></b></b></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Ports"></a>
+Ports</h2></td></tr>
+ <tr class="memitem:gaafe8d8f538bf4e2bdb9b8a73b793dad7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaafe8d8f538bf4e2bdb9b8a73b793dad7"></a>
+<a class="el" href="group___majority_voter.html#gaafe8d8f538bf4e2bdb9b8a73b793dad7">data_in</a> &#160;</td><td class="memItemRight" valign="bottom"> <b><b><span class="vhdlchar">in</span><span class="vhdlchar"> </span></b></b> <b><span class="vhdlchar">STD_LOGIC_VECTOR</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">width</span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="vhdlchar">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:ga9237ccbc80d19822650f7ef1180770fd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9237ccbc80d19822650f7ef1180770fd"></a>
+<a class="el" href="group___majority_voter.html#ga9237ccbc80d19822650f7ef1180770fd">data_cmp</a> &#160;</td><td class="memItemRight" valign="bottom"> <b><b><span class="vhdlchar">in</span><span class="vhdlchar"> </span></b></b> <b><span class="vhdlchar">STD_LOGIC_VECTOR</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">width</span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="vhdlchar">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:gab78b887b4d5060c44e453704d8846372"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gab78b887b4d5060c44e453704d8846372"></a>
+<a class="el" href="group___majority_voter.html#gab78b887b4d5060c44e453704d8846372">data_out</a> &#160;</td><td class="memItemRight" valign="bottom"> <b><b><span class="vhdlchar">out</span><span class="vhdlchar"> </span></b></b> <b><span class="vhdlchar">STD_LOGIC</span><span class="vhdlchar"> </span></b></td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrizione dettagliata</h2>
+<div class="textblock"><p>Implementazione VHDL <a class="el" href="classgeneric__comparator_1_1_structural.html">Structural</a> di un generico comparatore a maggioranza di due stringhe di width bit. Tale implementazione genera una catena di "width" comparatori a 2 bit. </p>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">width[in]</td><td>parametro che determina la dimensione del comparatore</td></tr>
+    <tr><td class="paramname">data_in[in]</td><td>stringa di bit di input di dimensione width </td></tr>
+    <tr><td class="paramname">data_cmp[in]</td><td>stringa di bit di input di dimensione width </td></tr>
+    <tr><td class="paramname">data_out[out]</td><td>risultato del confronto: data_out = 1 se data_in &gt; data_cmp data_out = 0 altrimenti </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><hr/>La documentazione per questa classe è stata generata a partire dal seguente file:<ul>
+<li>RMDecoder/MajorityVoter/<a class="el" href="generic__comparator_8vhd.html">generic_comparator.vhd</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classgeneric__comparator.html">generic_comparator</a></li>
+    <li class="footer">Generato Mer 17 Mag 2017 00:07:35 per Reed-Muller Decoder/Encoder in VHDL da
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
+  </ul>
+</div>
+</body>
+</html>

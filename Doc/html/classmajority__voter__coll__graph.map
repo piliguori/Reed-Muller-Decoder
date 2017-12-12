@@ -1,0 +1,12 @@
+<map id="majority_voter" name="majority_voter">
+<area shape="rect" id="node2" href="$classparallel__counter__block.html" title="Implementazione VHDL Structural del Modulo 1 : genera width/4 contatori paralleli a 4 bit..." alt="" coords="5,229,156,256"/>
+<area shape="rect" id="node3" href="$classparallel__counter__4.html" title="parallel_counter_4" alt="" coords="13,155,140,181"/>
+<area shape="rect" id="node4" href="$classfull__adder.html" title="full_adder(3)" alt="" coords="30,80,123,107"/>
+<area shape="rect" id="node5" href="$classgeneric__adder__pipelined.html" title="Implementazione VHDL Structural di un addizionatore generico pipelined : M operandi di N bit..." alt="" coords="188,229,349,256"/>
+<area shape="rect" id="node6" href="$classadder__block.html" title="Implementazione VHDL Structural di un generico livello del componente generic_adder. Tale livello è costituito da 2^level addizionatori che lavorano in parallelo, di dimensione dipendente dal livello corrente: N = number_bit_for_operand + log2(number_operand)&#45;level&#45;1. " alt="" coords="164,155,256,181"/>
+<area shape="rect" id="node7" href="$classripple__carry__adder.html" title="Implementazione VHDL Structural di un Ripple Carry Adder generico a N bit. " alt="" coords="147,80,275,107"/>
+<area shape="rect" id="node8" href="$classfull__adder.html" title="full_adder" alt="" coords="172,5,251,32"/>
+<area shape="rect" id="node9" href="$class_generic_buffer.html" title="Registro di dimensione generica. " alt="" coords="280,155,383,181"/>
+<area shape="rect" id="node10" href="$classgeneric__comparator.html" title="Implementazione VHDL Structural di un generico comparatore a maggioranza di due stringhe di width bit..." alt="" coords="389,229,525,256"/>
+<area shape="rect" id="node11" href="$classcomparator2bit.html" title="Implementazione VHDL Data Flow di un comparatore a 2 bit che tiene conto anche del risutato di un con..." alt="" coords="407,155,515,181"/>
+</map>

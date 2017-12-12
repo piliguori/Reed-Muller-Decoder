@@ -1,0 +1,8 @@
+<map id="adder_block" name="adder_block">
+<area shape="rect" id="node4" href="$classgeneric__adder__pipelined.html" title="Implementazione VHDL Structural di un addizionatore generico pipelined : M operandi di N bit..." alt="" coords="5,229,167,256"/>
+<area shape="rect" id="node2" href="$classripple__carry__adder.html" title="Implementazione VHDL Structural di un Ripple Carry Adder generico a N bit. " alt="" coords="22,80,150,107"/>
+<area shape="rect" id="node3" href="$classfull__adder.html" title="full_adder" alt="" coords="47,5,125,32"/>
+<area shape="rect" id="node5" href="$classmajority__voter.html" title="Implementazione VHDL Structural del majority voter. " alt="" coords="34,304,138,331"/>
+<area shape="rect" id="node6" href="$class_r_m_decoder.html" title="Implementazione VHDL del decodificatore per codici di Reed&#45;Muller(1,m) " alt="" coords="40,379,132,405"/>
+<area shape="rect" id="node7" href="$classtb___r_m_decoder.html" title="tb_RMDecoder" alt="" coords="31,453,141,480"/>
+</map>

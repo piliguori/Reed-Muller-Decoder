@@ -1,0 +1,173 @@
+\hypertarget{class_r_m_encoder}{\section{R\+M\+Encoder Entity Reference}
+\label{class_r_m_encoder}\index{R\+M\+Encoder@{R\+M\+Encoder}}
+}
+
+
+Implementazione V\+H\+D\+L del codificatore per codici di Reed-\/\+Muller(1,m)  
+
+
+
+
+Diagramma delle classi per R\+M\+Encoder\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=162pt]{class_r_m_encoder__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Entities}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_r_m_encoder_1_1_structural}{Structural} architecture
+\end{DoxyCompactItemize}
+\subsection*{Libraries}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_r_m_encoder_ga0a6af6eef40212dbaf130d57ce711256}{\hyperlink{group___r_m_encoder_ga0a6af6eef40212dbaf130d57ce711256}{ieee} }\label{class_r_m_encoder_ga0a6af6eef40212dbaf130d57ce711256}
+
+\end{DoxyCompactItemize}
+\subsection*{Use Clauses}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_r_m_encoder_gacd03516902501cd1c7296a98e22c6fcb}{\hyperlink{group___r_m_encoder_gacd03516902501cd1c7296a98e22c6fcb}{std\+\_\+logic\+\_\+1164}   }\label{class_r_m_encoder_gacd03516902501cd1c7296a98e22c6fcb}
+
+\item 
+\hypertarget{class_r_m_encoder_ga2edc34402b573437d5f25fa90ba4013e}{\hyperlink{group___r_m_encoder_ga2edc34402b573437d5f25fa90ba4013e}{numeric\+\_\+std}   }\label{class_r_m_encoder_ga2edc34402b573437d5f25fa90ba4013e}
+
+\end{DoxyCompactItemize}
+\subsection*{Generics}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_r_m_encoder_gad4fc2116999466ec7397a88a6e28908b}{\hyperlink{group___r_m_encoder_gad4fc2116999466ec7397a88a6e28908b}{m} {\bfseries {\bfseries \textcolor{comment}{natural}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{6} \textcolor{vhdlchar}{ }}}}\label{class_r_m_encoder_gad4fc2116999466ec7397a88a6e28908b}
+
+\item 
+\hypertarget{class_r_m_encoder_gaa6a3bcd7caff4ed469a24b721a55d4f2}{\hyperlink{group___r_m_encoder_gaa6a3bcd7caff4ed469a24b721a55d4f2}{generator\+\_\+matrix\+\_\+01} {\bfseries {\bfseries \textcolor{comment}{boolean}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{true}\textcolor{vhdlchar}{ }}}}\label{class_r_m_encoder_gaa6a3bcd7caff4ed469a24b721a55d4f2}
+
+\end{DoxyCompactItemize}
+\subsection*{Ports}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_r_m_encoder_ga6c4b211b609ac114e830f481bf50560d}{\hyperlink{group___r_m_encoder_ga6c4b211b609ac114e830f481bf50560d}{data\+\_\+in}  {\bfseries {\bfseries \textcolor{keywordflow}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{comment}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{m}\textcolor{vhdlchar}{ }\textcolor{keywordflow}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{class_r_m_encoder_ga6c4b211b609ac114e830f481bf50560d}
+
+\item 
+\hypertarget{class_r_m_encoder_ga33dd9cb04892f2d2a9352b65d17d4e1c}{\hyperlink{group___r_m_encoder_ga33dd9cb04892f2d2a9352b65d17d4e1c}{data\+\_\+out}  {\bfseries {\bfseries \textcolor{keywordflow}{out}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{comment}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{2} \textcolor{vhdlchar}{$\ast$}\textcolor{vhdlchar}{$\ast$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{m}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{keywordflow}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{class_r_m_encoder_ga33dd9cb04892f2d2a9352b65d17d4e1c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Descrizione dettagliata}
+Implementazione V\+H\+D\+L del codificatore per codici di Reed-\/\+Muller(1,m) 
+
+Il seguente esempio istanzia un encoder ed un decoder. L'output dell'encoder viene posto in ingresso al decoder. L'input dell'encoder viene controllato attraverso un V\+I\+O. Lo stesso V\+I\+O viene usato anche per monitorare l'uscita dell'encoder e l'uscita del decoder, oltre che per controllare il segnale di reset di quest'ultimo. \begin{DoxyVerb}   encoder : RMEncoder
+       Generic map (   m                   => m,
+                       generator_matrix_01 => generator_matrix_01)
+       Port map (      data_in             => encoder_data_in,
+                       data_out            => encoder_data_out);
+
+   decoder : RMDecoder
+       Generic map (   m                   => m,
+                       generator_matrix_01 => generator_matrix_01)
+       Port map (      clock               => clock,
+                       reset_n             => reset_n,
+                       data_in             => encoder_data_out,
+                       data_out            => decoder_data_out);
+
+   vio : vio_0
+       Port map (  clk             => clock,
+                   probe_in0       => encoder_data_out,
+                   probe_in1       => decoder_data_out,
+                   probe_out0      => encoder_data_in,
+                   probe_out1(0)   => reset_n);
+\end{DoxyVerb}
+
+
+\begin{DoxyWarning}{Avvertimento}
+I codici devono essere stati ottenuti con una matrice di generazione in forma canonica. Vedi il parametro generator\+\_\+matrix\+\_\+01.
+\end{DoxyWarning}
+
+\begin{DoxyParams}{Parametri}
+{\em m\mbox{[}in\mbox{]}} & parametro \char`\"{}m\char`\"{} del codice di Reed-\/\+Muller; incide sulla dimensione, in bit, dell'input e dell' output del componente\+: l'input sara' m+1 bit, mentre l'output 2$^\wedge$m bit. \\
+\hline
+{\em generator\+\_\+matrix\+\_\+01\mbox{[}in\mbox{]}} & permette di scegliere la matrice di generazione da usare in fase di decodifica. Scegliendo generator\+\_\+matrix\+\_\+01 =$>$ true, verra' usata una matrice~\newline
+ 1111111111111111~\newline
+ 0000000011111111~\newline
+ 0000111100001111~\newline
+ 0011001100110011~\newline
+ 0101010101010101~\newline
+ Se, invece, generator\+\_\+matrix\+\_\+01 =$>$ false, verra' usata una matrice~\newline
+ 1111111111111111~\newline
+ 1111111100000000~\newline
+ 1111000011110000~\newline
+ 1100110011001100~\newline
+ 1010101010101010 \\
+\hline
+{\em data\+\_\+in\mbox{[}in\mbox{]}} & stringa di bit, di lunghezza m+1 bit, da codificare come codice di Reed-\/\+Muller R\+M(1, m) \\
+\hline
+{\em data\+\_\+out\mbox{[}out\mbox{]}} & stringa di bit corrispondente al codice di Reed-\/\+Muller R\+M(1, m) decodificato, di lunghezza pari a 2$^\wedge$m bit \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000002}{Test}]R\+M(1,m), m=3~\newline
+ \end{DoxyRefDesc}
+\begin{TabularC}{2}
+\hline
+\rowcolor{lightgray}{\bf data\+\_\+in}&{\bf data\+\_\+out }\\\cline{1-2}
+x\char`\"{}0\char`\"{}&x\char`\"{}00\char`\"{} \\\cline{1-2}
+x\char`\"{}1\char`\"{}&x\char`\"{}55\char`\"{} \\\cline{1-2}
+x\char`\"{}2\char`\"{}&x\char`\"{}33\char`\"{} \\\cline{1-2}
+x\char`\"{}3\char`\"{}&x\char`\"{}66\char`\"{} \\\cline{1-2}
+x\char`\"{}4\char`\"{}&x\char`\"{}0f\char`\"{} \\\cline{1-2}
+x\char`\"{}5\char`\"{}&x\char`\"{}5a\char`\"{} \\\cline{1-2}
+x\char`\"{}6\char`\"{}&x\char`\"{}3c\char`\"{} \\\cline{1-2}
+x\char`\"{}7\char`\"{}&x\char`\"{}69\char`\"{} \\\cline{1-2}
+x\char`\"{}8\char`\"{}&x\char`\"{}ff\char`\"{} \\\cline{1-2}
+x\char`\"{}9\char`\"{}&x\char`\"{}aa\char`\"{} \\\cline{1-2}
+x\char`\"{}a\char`\"{}&x\char`\"{}cc\char`\"{} \\\cline{1-2}
+x\char`\"{}b\char`\"{}&x\char`\"{}99\char`\"{} \\\cline{1-2}
+x\char`\"{}c\char`\"{}&x\char`\"{}f0\char`\"{} \\\cline{1-2}
+x\char`\"{}d\char`\"{}&x\char`\"{}a5\char`\"{} \\\cline{1-2}
+x\char`\"{}e\char`\"{}&x\char`\"{}c3\char`\"{} \\\cline{1-2}
+x\char`\"{}f\char`\"{}&x\char`\"{}96\char`\"{} \\\cline{1-2}
+\end{TabularC}
+R\+M(1,m), m=4~\newline
+ \begin{TabularC}{2}
+\hline
+\rowcolor{lightgray}{\bf data\+\_\+in}&{\bf data\+\_\+out }\\\cline{1-2}
+x\char`\"{}00\char`\"{}&x\char`\"{}0000\char`\"{} \\\cline{1-2}
+x\char`\"{}01\char`\"{}&x\char`\"{}5555\char`\"{} \\\cline{1-2}
+x\char`\"{}02\char`\"{}&x\char`\"{}3333\char`\"{} \\\cline{1-2}
+x\char`\"{}03\char`\"{}&x\char`\"{}6666\char`\"{} \\\cline{1-2}
+x\char`\"{}04\char`\"{}&x\char`\"{}0f0f\char`\"{} \\\cline{1-2}
+x\char`\"{}05\char`\"{}&x\char`\"{}5a5a\char`\"{} \\\cline{1-2}
+x\char`\"{}06\char`\"{}&x\char`\"{}3c3c\char`\"{} \\\cline{1-2}
+x\char`\"{}07\char`\"{}&x\char`\"{}6969\char`\"{} \\\cline{1-2}
+x\char`\"{}08\char`\"{}&x\char`\"{}00ff\char`\"{} \\\cline{1-2}
+x\char`\"{}09\char`\"{}&x\char`\"{}55aa\char`\"{} \\\cline{1-2}
+x\char`\"{}0a\char`\"{}&x\char`\"{}33cc\char`\"{} \\\cline{1-2}
+x\char`\"{}0b\char`\"{}&x\char`\"{}6699\char`\"{} \\\cline{1-2}
+x\char`\"{}0c\char`\"{}&x\char`\"{}0ff0\char`\"{} \\\cline{1-2}
+x\char`\"{}0d\char`\"{}&x\char`\"{}5aa5\char`\"{} \\\cline{1-2}
+x\char`\"{}0e\char`\"{}&x\char`\"{}3cc3\char`\"{} \\\cline{1-2}
+x\char`\"{}0f\char`\"{}&x\char`\"{}6996\char`\"{} \\\cline{1-2}
+x\char`\"{}10\char`\"{}&x\char`\"{}ffff\char`\"{} \\\cline{1-2}
+x\char`\"{}11\char`\"{}&x\char`\"{}aaaa\char`\"{} \\\cline{1-2}
+x\char`\"{}12\char`\"{}&x\char`\"{}cccc\char`\"{} \\\cline{1-2}
+x\char`\"{}13\char`\"{}&x\char`\"{}9999\char`\"{} \\\cline{1-2}
+x\char`\"{}14\char`\"{}&x\char`\"{}f0f0\char`\"{} \\\cline{1-2}
+x\char`\"{}15\char`\"{}&x\char`\"{}a5a5\char`\"{} \\\cline{1-2}
+x\char`\"{}16\char`\"{}&x\char`\"{}c3c3\char`\"{} \\\cline{1-2}
+x\char`\"{}17\char`\"{}&x\char`\"{}9696\char`\"{} \\\cline{1-2}
+x\char`\"{}18\char`\"{}&x\char`\"{}ff00\char`\"{} \\\cline{1-2}
+x\char`\"{}19\char`\"{}&x\char`\"{}aa55\char`\"{} \\\cline{1-2}
+x\char`\"{}1a\char`\"{}&x\char`\"{}cc33\char`\"{} \\\cline{1-2}
+x\char`\"{}1b\char`\"{}&x\char`\"{}9966\char`\"{} \\\cline{1-2}
+x\char`\"{}1c\char`\"{}&x\char`\"{}f00f\char`\"{} \\\cline{1-2}
+x\char`\"{}1d\char`\"{}&x\char`\"{}a55a\char`\"{} \\\cline{1-2}
+x\char`\"{}1e\char`\"{}&x\char`\"{}c33c\char`\"{} \\\cline{1-2}
+x\char`\"{}1f\char`\"{}&x\char`\"{}9669\char`\"{} \\\cline{1-2}
+\end{TabularC}
+
+
+La documentazione per questa classe è stata generata a partire dal seguente file\+:\begin{DoxyCompactItemize}
+\item 
+R\+M\+Encoder/\hyperlink{_r_m_encoder_8vhd}{R\+M\+Encoder.\+vhd}\end{DoxyCompactItemize}

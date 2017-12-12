@@ -1,0 +1,41 @@
+\hypertarget{classgeneric__adder__pipelined_1_1_structural}{\section{Structural Architecture Reference}
+\label{classgeneric__adder__pipelined_1_1_structural}\index{Structural@{Structural}}
+}
+\subsection*{Components}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{classgeneric__adder__pipelined_1_1_structural_ga8246d08a486d28a27ac22b403f892e6e}{\hyperlink{group___majority_voter_ga8246d08a486d28a27ac22b403f892e6e}{adder\+\_\+block}  {\bfseries }  }\label{classgeneric__adder__pipelined_1_1_structural_ga8246d08a486d28a27ac22b403f892e6e}
+
+\item 
+\hypertarget{classgeneric__adder__pipelined_1_1_structural_ga26754353fa942392a9799290b42c41c7}{\hyperlink{group___majority_voter_ga26754353fa942392a9799290b42c41c7}{Generic\+Buffer}  {\bfseries }  }\label{classgeneric__adder__pipelined_1_1_structural_ga26754353fa942392a9799290b42c41c7}
+
+\end{DoxyCompactItemize}
+\subsection*{Types}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{classgeneric__adder__pipelined_1_1_structural_ga53fbafb9ce3d3c16387cebcfd7c532b4}{{\bfseries \hyperlink{group___majority_voter_ga53fbafb9ce3d3c16387cebcfd7c532b4}{tmp\+\_\+sum\+\_\+array}{\bfseries \textcolor{vhdlchar}{array}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{natural}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{range}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{$<$$>$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{of}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+operand}\textcolor{vhdlchar}{$\ast$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+bit\+\_\+for\+\_\+operand}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }}} }\label{classgeneric__adder__pipelined_1_1_structural_ga53fbafb9ce3d3c16387cebcfd7c532b4}
+
+\end{DoxyCompactItemize}
+\subsection*{Signals}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{classgeneric__adder__pipelined_1_1_structural_gaf711b57d5b395ce10325740842940766}{\hyperlink{group___majority_voter_gaf711b57d5b395ce10325740842940766}{tmp\+\_\+sum} {\bfseries \textcolor{vhdlchar}{tmp\+\_\+sum\+\_\+array}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{natural}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{log2}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{real}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+operand}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{classgeneric__adder__pipelined_1_1_structural_gaf711b57d5b395ce10325740842940766}
+
+\item 
+\hypertarget{classgeneric__adder__pipelined_1_1_structural_gad9c49512af33fdd0018c28b9da41edf7}{\hyperlink{group___majority_voter_gad9c49512af33fdd0018c28b9da41edf7}{tmp\+\_\+sum\+\_\+buffer} {\bfseries \textcolor{vhdlchar}{tmp\+\_\+sum\+\_\+array}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{natural}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{log2}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{real}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+operand}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{classgeneric__adder__pipelined_1_1_structural_gad9c49512af33fdd0018c28b9da41edf7}
+
+\end{DoxyCompactItemize}
+\subsection*{Instantiations}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{classgeneric__adder__pipelined_1_1_structural_a01e4a388689526e6424aff00490f0833}{\hyperlink{classgeneric__adder__pipelined_1_1_structural_a01e4a388689526e6424aff00490f0833}{adder\+\_\+block\+\_\+inst}  {\bfseries adder\+\_\+block}   }\label{classgeneric__adder__pipelined_1_1_structural_a01e4a388689526e6424aff00490f0833}
+
+\item 
+\hypertarget{classgeneric__adder__pipelined_1_1_structural_af4726a25a81a887cdc74980f2ea53432}{\hyperlink{classgeneric__adder__pipelined_1_1_structural_af4726a25a81a887cdc74980f2ea53432}{buffer\+\_\+between\+\_\+adder\+\_\+block\+\_\+inst}  {\bfseries Generic\+Buffer}   }\label{classgeneric__adder__pipelined_1_1_structural_af4726a25a81a887cdc74980f2ea53432}
+
+\end{DoxyCompactItemize}
+
+
+La documentazione per questa classe è stata generata a partire dal seguente file\+:\begin{DoxyCompactItemize}
+\item 
+R\+M\+Decoder/\+Majority\+Voter/\hyperlink{generic__adder__pipelined_8vhd}{generic\+\_\+adder\+\_\+pipelined.\+vhd}\end{DoxyCompactItemize}

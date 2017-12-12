@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Reed-Muller Decoder/Encoder in VHDL: Structural Architecture  Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Reed-Muller Decoder/Encoder in VHDL
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="pages.html"><span>Pagine&#160;collegate</span></a></li>
+      <li><a href="modules.html"><span>Moduli</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Design&#160;Units</span></a></li>
+      <li><a href="inherits.html"><span>Design&#160;Unit&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Design&#160;Unit&#160;Members</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('classgeneric__adder__pipelined_1_1_structural.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Gruppi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pagine</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#Components">Components</a> &#124;
+<a href="#Types">Types</a> &#124;
+<a href="#Signals">Signals</a> &#124;
+<a href="#Instantiations">Instantiations</a>  </div>
+  <div class="headertitle">
+<div class="title">Structural Architecture Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Components"></a>
+Components</h2></td></tr>
+ <tr class="memitem:ga8246d08a486d28a27ac22b403f892e6e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga8246d08a486d28a27ac22b403f892e6e"></a>
+<a class="el" href="group___majority_voter.html#ga8246d08a486d28a27ac22b403f892e6e">adder_block</a>&#160;</td><td class="memItemRight" valign="bottom">  <b></b>  <em><a class="el" href="classadder__block.html">&lt;Entity adder_block&gt; </a></em></td></tr>
+<tr class="memitem:ga26754353fa942392a9799290b42c41c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga26754353fa942392a9799290b42c41c7"></a>
+<a class="el" href="group___majority_voter.html#ga26754353fa942392a9799290b42c41c7">GenericBuffer</a>&#160;</td><td class="memItemRight" valign="bottom">  <b></b>  <em><a class="el" href="class_generic_buffer.html">&lt;Entity GenericBuffer&gt; </a></em></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Types"></a>
+Types</h2></td></tr>
+ <tr class="memitem:ga53fbafb9ce3d3c16387cebcfd7c532b4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga53fbafb9ce3d3c16387cebcfd7c532b4"></a>
+<b><a class="el" href="group___majority_voter.html#ga53fbafb9ce3d3c16387cebcfd7c532b4">tmp_sum_array</a>&#160;</td><td class="memItemRight" valign="bottom"><b><span class="vhdlchar">array</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar">natural</span><span class="vhdlchar"> </span><span class="vhdlchar">range</span><span class="vhdlchar"> </span><span class="vhdlchar">&lt;&gt;</span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">of</span><span class="vhdlchar"> </span><span class="vhdlchar">std_logic_vector</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">number_operand</span><span class="vhdlchar">*</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">number_bit_for_operand</span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="vhdlchar">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></b></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Signals"></a>
+Signals</h2></td></tr>
+ <tr class="memitem:gaf711b57d5b395ce10325740842940766"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaf711b57d5b395ce10325740842940766"></a>
+<a class="el" href="group___majority_voter.html#gaf711b57d5b395ce10325740842940766">tmp_sum</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="vhdlchar">tmp_sum_array</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">natural</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar">log2</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar">real</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar">number_operand</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:gad9c49512af33fdd0018c28b9da41edf7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad9c49512af33fdd0018c28b9da41edf7"></a>
+<a class="el" href="group___majority_voter.html#gad9c49512af33fdd0018c28b9da41edf7">tmp_sum_buffer</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="vhdlchar">tmp_sum_array</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">natural</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar">log2</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar">real</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar">number_operand</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="vhdlchar">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Instantiations"></a>
+Instantiations</h2></td></tr>
+ <tr class="memitem:a01e4a388689526e6424aff00490f0833"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a01e4a388689526e6424aff00490f0833"></a>
+<a class="el" href="classgeneric__adder__pipelined_1_1_structural.html#a01e4a388689526e6424aff00490f0833">adder_block_inst</a>&#160;</td><td class="memItemRight" valign="bottom">  <b>adder_block</b>  <em><a class="el" href="classadder__block.html">&lt;Entity adder_block&gt;</a></em></td></tr>
+<tr class="memitem:af4726a25a81a887cdc74980f2ea53432"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af4726a25a81a887cdc74980f2ea53432"></a>
+<a class="el" href="classgeneric__adder__pipelined_1_1_structural.html#af4726a25a81a887cdc74980f2ea53432">buffer_between_adder_block_inst</a>&#160;</td><td class="memItemRight" valign="bottom">  <b>GenericBuffer</b>  <em><a class="el" href="class_generic_buffer.html">&lt;Entity GenericBuffer&gt;</a></em></td></tr>
+</table>
+<hr/>La documentazione per questa classe è stata generata a partire dal seguente file:<ul>
+<li>RMDecoder/MajorityVoter/<a class="el" href="generic__adder__pipelined_8vhd.html">generic_adder_pipelined.vhd</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="classgeneric__adder__pipelined.html">generic_adder_pipelined</a></li><li class="navelem"><a class="el" href="classgeneric__adder__pipelined_1_1_structural.html">Structural</a></li>
+    <li class="footer">Generato Mer 17 Mag 2017 00:07:35 per Reed-Muller Decoder/Encoder in VHDL da
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
+  </ul>
+</div>
+</body>
+</html>

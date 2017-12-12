@@ -1,0 +1,7 @@
+<map id="parallel_counter_block" name="parallel_counter_block">
+<area shape="rect" id="node4" href="$classmajority__voter.html" title="Implementazione VHDL Structural del majority voter. " alt="" coords="29,229,133,256"/>
+<area shape="rect" id="node2" href="$classparallel__counter__4.html" title="parallel_counter_4" alt="" coords="17,80,144,107"/>
+<area shape="rect" id="node3" href="$classfull__adder.html" title="full_adder(3)" alt="" coords="34,5,127,32"/>
+<area shape="rect" id="node5" href="$class_r_m_decoder.html" title="Implementazione VHDL del decodificatore per codici di Reed&#45;Muller(1,m) " alt="" coords="35,304,127,331"/>
+<area shape="rect" id="node6" href="$classtb___r_m_decoder.html" title="tb_RMDecoder" alt="" coords="25,379,136,405"/>
+</map>

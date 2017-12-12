@@ -1,0 +1,6 @@
+<map id="GenericBuffer" name="GenericBuffer">
+<area shape="rect" id="node2" href="$classgeneric__adder__pipelined.html" title="Implementazione VHDL Structural di un addizionatore generico pipelined : M operandi di N bit..." alt="" coords="5,80,167,107"/>
+<area shape="rect" id="node4" href="$class_r_m_decoder.html" title="Implementazione VHDL del decodificatore per codici di Reed&#45;Muller(1,m) " alt="" coords="107,229,199,256"/>
+<area shape="rect" id="node3" href="$classmajority__voter.html" title="Implementazione VHDL Structural del majority voter. " alt="" coords="49,155,153,181"/>
+<area shape="rect" id="node5" href="$classtb___r_m_decoder.html" title="tb_RMDecoder" alt="" coords="97,304,208,331"/>
+</map>

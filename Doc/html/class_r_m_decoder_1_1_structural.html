@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Reed-Muller Decoder/Encoder in VHDL: Structural Architecture  Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Reed-Muller Decoder/Encoder in VHDL
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="pages.html"><span>Pagine&#160;collegate</span></a></li>
+      <li><a href="modules.html"><span>Moduli</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Design&#160;Units</span></a></li>
+      <li><a href="inherits.html"><span>Design&#160;Unit&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Design&#160;Unit&#160;Members</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_r_m_decoder_1_1_structural.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Gruppi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pagine</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#Components">Components</a> &#124;
+<a href="#Types">Types</a> &#124;
+<a href="#Signals">Signals</a> &#124;
+<a href="#Constants">Constants</a> &#124;
+<a href="#Instantiations">Instantiations</a>  </div>
+  <div class="headertitle">
+<div class="title">Structural Architecture Reference</div>  </div>
+</div><!--header-->
+<div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Components"></a>
+Components</h2></td></tr>
+ <tr class="memitem:ga26754353fa942392a9799290b42c41c7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga26754353fa942392a9799290b42c41c7"></a>
+<a class="el" href="group___r_m_decoder.html#ga26754353fa942392a9799290b42c41c7">GenericBuffer</a>&#160;</td><td class="memItemRight" valign="bottom">  <b></b>  <em><a class="el" href="class_generic_buffer.html">&lt;Entity GenericBuffer&gt; </a></em></td></tr>
+<tr class="memitem:ga78b932f12128347f9985cb5f28b83a4d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga78b932f12128347f9985cb5f28b83a4d"></a>
+<a class="el" href="group___r_m_decoder.html#ga78b932f12128347f9985cb5f28b83a4d">ButterflyCell</a>&#160;</td><td class="memItemRight" valign="bottom">  <b></b>  <em><a class="el" href="class_butterfly_cell.html">&lt;Entity ButterflyCell&gt; </a></em></td></tr>
+<tr class="memitem:gadabe01418633fc7a7416a2b27787c4f5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gadabe01418633fc7a7416a2b27787c4f5"></a>
+<a class="el" href="group___r_m_decoder.html#gadabe01418633fc7a7416a2b27787c4f5">majority_voter</a>&#160;</td><td class="memItemRight" valign="bottom">  <b></b>  <em><a class="el" href="classmajority__voter.html">&lt;Entity majority_voter&gt; </a></em></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Constants"></a>
+Constants</h2></td></tr>
+ <tr class="memitem:gaa60d5ca93133573b9fb3e8cc51520aa1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa60d5ca93133573b9fb3e8cc51520aa1"></a>
+<a class="el" href="group___r_m_decoder.html#gaa60d5ca93133573b9fb3e8cc51520aa1">zero</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="comment">std_logic_vector</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">2</span> <span class="vhdlchar">*</span><span class="vhdlchar">*</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">m</span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="keywordflow">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordflow">others</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar">&gt;</span><span class="vhdlchar"> </span><span class="vhdlchar">'</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">'</span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Types"></a>
+Types</h2></td></tr>
+ <tr class="memitem:ga88b1f19c6b66040e3719ce83a8832903"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga88b1f19c6b66040e3719ce83a8832903"></a>
+<b><a class="el" href="group___r_m_decoder.html#ga88b1f19c6b66040e3719ce83a8832903">std_logic_matrix1</a>&#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordflow">array</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="comment">natural</span><span class="vhdlchar"> </span><span class="keywordflow">range</span><span class="vhdlchar"> </span><span class="vhdlchar">&lt;&gt;</span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordflow">of</span><span class="vhdlchar"> </span><span class="comment">std_logic_vector</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">2</span> <span class="vhdlchar">*</span><span class="vhdlchar">*</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">m</span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="keywordflow">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></b></td></tr>
+<tr class="memitem:ga276be67840f4fbd1d23853217df170f2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga276be67840f4fbd1d23853217df170f2"></a>
+<b><a class="el" href="group___r_m_decoder.html#ga276be67840f4fbd1d23853217df170f2">std_logic_matrix2</a>&#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordflow">array</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="comment">natural</span><span class="vhdlchar"> </span><span class="keywordflow">range</span><span class="vhdlchar"> </span><span class="vhdlchar">&lt;&gt;</span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordflow">of</span><span class="vhdlchar"> </span><span class="comment">std_logic_vector</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">2</span> <span class="vhdlchar">*</span><span class="vhdlchar">*</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">m</span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="keywordflow">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></b></td></tr>
+<tr class="memitem:gac887ee6c2ab1366d4bf032a25fdab5e3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac887ee6c2ab1366d4bf032a25fdab5e3"></a>
+<b><a class="el" href="group___r_m_decoder.html#gac887ee6c2ab1366d4bf032a25fdab5e3">std_logic_matrix3</a>&#160;</td><td class="memItemRight" valign="bottom"><b><span class="keywordflow">array</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="comment">natural</span><span class="vhdlchar"> </span><span class="keywordflow">range</span><span class="vhdlchar"> </span><span class="vhdlchar">&lt;&gt;</span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordflow">of</span><span class="vhdlchar"> </span><span class="comment">std_logic_vector</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">m</span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="keywordflow">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></b></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Signals"></a>
+Signals</h2></td></tr>
+ <tr class="memitem:gadab82093cb9537c2274c9fbdac7d7541"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gadab82093cb9537c2274c9fbdac7d7541"></a>
+<a class="el" href="group___r_m_decoder.html#gadab82093cb9537c2274c9fbdac7d7541">generation_matrix</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="vhdlchar">std_logic_matrix1</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="keywordflow">to</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">m</span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:ga0dcbb35a8fac52cb2ef25fa492ef92dc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0dcbb35a8fac52cb2ef25fa492ef92dc"></a>
+<a class="el" href="group___r_m_decoder.html#ga0dcbb35a8fac52cb2ef25fa492ef92dc">buffered_data_in</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="vhdlchar">std_logic_matrix1</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="keywordflow">to</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">m</span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">3</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:ga9243217cad690ad048eb6db5d62e2a6d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga9243217cad690ad048eb6db5d62e2a6d"></a>
+<a class="el" href="group___r_m_decoder.html#ga9243217cad690ad048eb6db5d62e2a6d">swapped_data</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="vhdlchar">std_logic_matrix1</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="keywordflow">to</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">m</span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:ga1130ec220f0c6241d27cc385f2668d00"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga1130ec220f0c6241d27cc385f2668d00"></a>
+<a class="el" href="group___r_m_decoder.html#ga1130ec220f0c6241d27cc385f2668d00">coupled_xor</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="vhdlchar">std_logic_matrix2</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="keywordflow">to</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">m</span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:ga887293fe9802236eafef5eb11a4bc74e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga887293fe9802236eafef5eb11a4bc74e"></a>
+<a class="el" href="group___r_m_decoder.html#ga887293fe9802236eafef5eb11a4bc74e">majority</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="comment">std_logic_vector</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">m</span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="keywordflow">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="keywordflow">others</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar">&gt;</span><span class="vhdlchar"> </span><span class="vhdlchar">'</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">'</span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:gac285643bd00180b1ec874c3b67631e03"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gac285643bd00180b1ec874c3b67631e03"></a>
+<a class="el" href="group___r_m_decoder.html#gac285643bd00180b1ec874c3b67631e03">majority_m</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="comment">std_logic</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">'</span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">'</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:gabda6f88664fe21fbb55bd410bd1bb1df"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gabda6f88664fe21fbb55bd410bd1bb1df"></a>
+<a class="el" href="group___r_m_decoder.html#gabda6f88664fe21fbb55bd410bd1bb1df">pipe_majority</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="vhdlchar">std_logic_matrix3</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="keywordflow">to</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">m</span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">2</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:ga7e6a74d4c6e7199451d5e2d1da8ebac4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga7e6a74d4c6e7199451d5e2d1da8ebac4"></a>
+<a class="el" href="group___r_m_decoder.html#ga7e6a74d4c6e7199451d5e2d1da8ebac4">am_matrix</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="vhdlchar">std_logic_matrix1</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="keywordflow">to</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">m</span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:ga6468c115f786cd7040a1e96ad0274e09"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga6468c115f786cd7040a1e96ad0274e09"></a>
+<a class="el" href="group___r_m_decoder.html#ga6468c115f786cd7040a1e96ad0274e09">am_xored_matrix</a> &#160;</td><td class="memItemRight" valign="bottom"><b><span class="vhdlchar">std_logic_matrix1</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="keywordflow">to</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">m</span><span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Instantiations"></a>
+Instantiations</h2></td></tr>
+ <tr class="memitem:ac69adf2a26119ed9eb872ec1b20331e6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac69adf2a26119ed9eb872ec1b20331e6"></a>
+<a class="el" href="class_r_m_decoder_1_1_structural.html#ac69adf2a26119ed9eb872ec1b20331e6">data_in_buffer</a>&#160;</td><td class="memItemRight" valign="bottom">  <b>GenericBuffer</b>  <em><a class="el" href="class_generic_buffer.html">&lt;Entity GenericBuffer&gt;</a></em></td></tr>
+<tr class="memitem:ab314bda3028efc7ff5f435a6c94dd91d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab314bda3028efc7ff5f435a6c94dd91d"></a>
+<a class="el" href="class_r_m_decoder_1_1_structural.html#ab314bda3028efc7ff5f435a6c94dd91d">cell</a>&#160;</td><td class="memItemRight" valign="bottom">  <b>ButterflyCell</b>  <em><a class="el" href="class_butterfly_cell.html">&lt;Entity ButterflyCell&gt;</a></em></td></tr>
+<tr class="memitem:a8934cb3adca848b0bfac3a3ece8ae0d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8934cb3adca848b0bfac3a3ece8ae0d9"></a>
+<a class="el" href="class_r_m_decoder_1_1_structural.html#a8934cb3adca848b0bfac3a3ece8ae0d9">voter</a>&#160;</td><td class="memItemRight" valign="bottom">  <b>majority_voter</b>  <em><a class="el" href="classmajority__voter.html">&lt;Entity majority_voter&gt;</a></em></td></tr>
+<tr class="memitem:adf0678d4953108f0df60d34cfedf977d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf0678d4953108f0df60d34cfedf977d"></a>
+<a class="el" href="class_r_m_decoder_1_1_structural.html#adf0678d4953108f0df60d34cfedf977d">pipe_buffer</a>&#160;</td><td class="memItemRight" valign="bottom">  <b>GenericBuffer</b>  <em><a class="el" href="class_generic_buffer.html">&lt;Entity GenericBuffer&gt;</a></em></td></tr>
+<tr class="memitem:a0310e0cbca6fa2f66210c8a9cc7756f3"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0310e0cbca6fa2f66210c8a9cc7756f3"></a>
+<a class="el" href="class_r_m_decoder_1_1_structural.html#a0310e0cbca6fa2f66210c8a9cc7756f3">am_voter</a>&#160;</td><td class="memItemRight" valign="bottom">  <b>majority_voter</b>  <em><a class="el" href="classmajority__voter.html">&lt;Entity majority_voter&gt;</a></em></td></tr>
+<tr class="memitem:a9969ede58861b2f719256f807704253c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9969ede58861b2f719256f807704253c"></a>
+<a class="el" href="class_r_m_decoder_1_1_structural.html#a9969ede58861b2f719256f807704253c">buffer_data_out</a>&#160;</td><td class="memItemRight" valign="bottom">  <b>GenericBuffer</b>  <em><a class="el" href="class_generic_buffer.html">&lt;Entity GenericBuffer&gt;</a></em></td></tr>
+</table>
+<hr/>La documentazione per questa classe è stata generata a partire dal seguente file:<ul>
+<li>RMDecoder/<a class="el" href="_r_m_decoder_8vhd.html">RMDecoder.vhd</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_r_m_decoder.html">RMDecoder</a></li><li class="navelem"><a class="el" href="class_r_m_decoder_1_1_structural.html">Structural</a></li>
+    <li class="footer">Generato Mer 17 Mag 2017 00:07:35 per Reed-Muller Decoder/Encoder in VHDL da
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
+  </ul>
+</div>
+</body>
+</html>

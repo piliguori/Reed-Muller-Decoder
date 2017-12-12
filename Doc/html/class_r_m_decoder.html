@@ -1,0 +1,338 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>Reed-Muller Decoder/Encoder in VHDL: RMDecoder Entity  Reference</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript">
+  $(document).ready(initResizable);
+  $(window).load(resizeHeight);
+</script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Reed-Muller Decoder/Encoder in VHDL
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generato da Doxygen 1.8.8 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Cerca');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Pagina&#160;Principale</span></a></li>
+      <li><a href="pages.html"><span>Pagine&#160;collegate</span></a></li>
+      <li><a href="modules.html"><span>Moduli</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li><a href="files.html"><span>File</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Cerca" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Design&#160;Unit&#160;List</span></a></li>
+      <li><a href="classes.html"><span>Design&#160;Units</span></a></li>
+      <li><a href="inherits.html"><span>Design&#160;Unit&#160;Hierarchy</span></a></li>
+      <li><a href="functions.html"><span>Design&#160;Unit&#160;Members</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function(){initNavTree('class_r_m_decoder.html','');});
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tutto</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>File</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variabili</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Gruppi</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Pagine</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#Generics">Generics</a> &#124;
+<a href="#Ports">Ports</a> &#124;
+<a href="#Libraries">Libraries</a> &#124;
+<a href="#Use Clauses">Use Clauses</a>  </div>
+  <div class="headertitle">
+<div class="title">RMDecoder Entity Reference<div class="ingroups"><a class="el" href="group___r_m_decoder.html">RMDecoder</a></div></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Implementazione VHDL del decodificatore per codici di Reed-Muller(1,m)  
+ <a href="class_r_m_decoder.html#details">Continua...</a></p>
+<div class="dynheader">
+Diagramma delle classi per RMDecoder</div>
+<div class="dyncontent">
+<div class="center"><img src="class_r_m_decoder__inherit__graph.png" border="0" usemap="#_r_m_decoder_inherit__map" alt="Inheritance graph"/></div>
+<map name="_r_m_decoder_inherit__map" id="_r_m_decoder_inherit__map">
+<area shape="rect" id="node15" href="classtb___r_m_decoder.html" title="tb_RMDecoder" alt="" coords="139,453,250,480"/><area shape="rect" id="node2" href="class_generic_buffer.html" title="Registro di dimensione generica. " alt="" coords="5,304,123,331"/><area shape="rect" id="node3" href="class_butterfly_cell.html" title="implementazione VHDL dello swap usato nel decodificatore di Reed&#45;Muller " alt="" coords="147,304,242,331"/><area shape="rect" id="node4" href="classmajority__voter.html" title="Implementazione VHDL Structural del majority voter. " alt="" coords="266,304,385,331"/><area shape="rect" id="node5" href="classparallel__counter__block.html" title="Implementazione VHDL Structural del Modulo 1 : genera width/4 contatori paralleli a 4 bit..." alt="" coords="62,229,213,256"/><area shape="rect" id="node6" href="classparallel__counter__4.html" title="parallel_counter_4" alt="" coords="70,155,197,181"/><area shape="rect" id="node7" href="classfull__adder.html" title="full_adder(3)" alt="" coords="87,80,180,107"/><area shape="rect" id="node8" href="classgeneric__adder__pipelined.html" title="Implementazione VHDL Structural di un addizionatore generico pipelined : M operandi di N bit..." alt="" coords="245,229,406,256"/><area shape="rect" id="node9" href="classadder__block.html" title="Implementazione VHDL Structural di un generico livello del componente generic_adder. Tale livello è costituito da 2^level addizionatori che lavorano in parallelo, di dimensione dipendente dal livello corrente: N = number_bit_for_operand + log2(number_operand)&#45;level&#45;1. " alt="" coords="221,155,313,181"/><area shape="rect" id="node10" href="classripple__carry__adder.html" title="Implementazione VHDL Structural di un Ripple Carry Adder generico a N bit. " alt="" coords="204,80,332,107"/><area shape="rect" id="node11" href="classfull__adder.html" title="full_adder" alt="" coords="229,5,307,32"/><area shape="rect" id="node12" href="class_generic_buffer.html" title="Registro di dimensione generica. " alt="" coords="337,155,439,181"/><area shape="rect" id="node13" href="classgeneric__comparator.html" title="Implementazione VHDL Structural di un generico comparatore a maggioranza di due stringhe di width bit..." alt="" coords="445,229,581,256"/><area shape="rect" id="node14" href="classcomparator2bit.html" title="Implementazione VHDL Data Flow di un comparatore a 2 bit che tiene conto anche del risutato di un con..." alt="" coords="463,155,571,181"/></map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<div class="dynheader">
+Diagramma di collaborazione per RMDecoder:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_r_m_decoder__coll__graph.png" border="0" usemap="#_r_m_decoder_coll__map" alt="Collaboration graph"/></div>
+<map name="_r_m_decoder_coll__map" id="_r_m_decoder_coll__map">
+<area shape="rect" id="node2" href="class_generic_buffer.html" title="Registro di dimensione generica. " alt="" coords="5,304,123,331"/><area shape="rect" id="node3" href="class_butterfly_cell.html" title="implementazione VHDL dello swap usato nel decodificatore di Reed&#45;Muller " alt="" coords="147,304,242,331"/><area shape="rect" id="node4" href="classmajority__voter.html" title="Implementazione VHDL Structural del majority voter. " alt="" coords="266,304,385,331"/><area shape="rect" id="node5" href="classparallel__counter__block.html" title="Implementazione VHDL Structural del Modulo 1 : genera width/4 contatori paralleli a 4 bit..." alt="" coords="62,229,213,256"/><area shape="rect" id="node6" href="classparallel__counter__4.html" title="parallel_counter_4" alt="" coords="70,155,197,181"/><area shape="rect" id="node7" href="classfull__adder.html" title="full_adder(3)" alt="" coords="87,80,180,107"/><area shape="rect" id="node8" href="classgeneric__adder__pipelined.html" title="Implementazione VHDL Structural di un addizionatore generico pipelined : M operandi di N bit..." alt="" coords="245,229,406,256"/><area shape="rect" id="node9" href="classadder__block.html" title="Implementazione VHDL Structural di un generico livello del componente generic_adder. Tale livello è costituito da 2^level addizionatori che lavorano in parallelo, di dimensione dipendente dal livello corrente: N = number_bit_for_operand + log2(number_operand)&#45;level&#45;1. " alt="" coords="221,155,313,181"/><area shape="rect" id="node10" href="classripple__carry__adder.html" title="Implementazione VHDL Structural di un Ripple Carry Adder generico a N bit. " alt="" coords="204,80,332,107"/><area shape="rect" id="node11" href="classfull__adder.html" title="full_adder" alt="" coords="229,5,307,32"/><area shape="rect" id="node12" href="class_generic_buffer.html" title="Registro di dimensione generica. " alt="" coords="337,155,439,181"/><area shape="rect" id="node13" href="classgeneric__comparator.html" title="Implementazione VHDL Structural di un generico comparatore a maggioranza di due stringhe di width bit..." alt="" coords="445,229,581,256"/><area shape="rect" id="node14" href="classcomparator2bit.html" title="Implementazione VHDL Data Flow di un comparatore a 2 bit che tiene conto anche del risutato di un con..." alt="" coords="463,155,571,181"/></map>
+<center><span class="legend">[<a target="top" href="graph_legend.html">legenda</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Entities</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_r_m_decoder_1_1_structural.html">Structural</a> &#160;</td><td class="memItemRight" valign="bottom">architecture</td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Libraries"></a>
+Libraries</h2></td></tr>
+ <tr class="memitem:ga0a6af6eef40212dbaf130d57ce711256"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga0a6af6eef40212dbaf130d57ce711256"></a>
+<a class="el" href="group___r_m_decoder.html#ga0a6af6eef40212dbaf130d57ce711256">ieee</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Use Clauses"></a>
+Use Clauses</h2></td></tr>
+ <tr class="memitem:gacd03516902501cd1c7296a98e22c6fcb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gacd03516902501cd1c7296a98e22c6fcb"></a>
+<a class="el" href="group___r_m_decoder.html#gacd03516902501cd1c7296a98e22c6fcb">std_logic_1164</a>&#160;</td><td class="memItemRight" valign="bottom">  </td></tr>
+<tr class="memitem:ga2edc34402b573437d5f25fa90ba4013e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2edc34402b573437d5f25fa90ba4013e"></a>
+<a class="el" href="group___r_m_decoder.html#ga2edc34402b573437d5f25fa90ba4013e">numeric_std</a>&#160;</td><td class="memItemRight" valign="bottom">  </td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Generics"></a>
+Generics</h2></td></tr>
+ <tr class="memitem:gad4fc2116999466ec7397a88a6e28908b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gad4fc2116999466ec7397a88a6e28908b"></a>
+<a class="el" href="group___r_m_decoder.html#gad4fc2116999466ec7397a88a6e28908b">m</a> &#160;</td><td class="memItemRight" valign="bottom"><b><b><span class="vhdlchar">natural</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">6</span> <span class="vhdlchar"> </span></b></b></td></tr>
+<tr class="memitem:gaa6a3bcd7caff4ed469a24b721a55d4f2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gaa6a3bcd7caff4ed469a24b721a55d4f2"></a>
+<a class="el" href="group___r_m_decoder.html#gaa6a3bcd7caff4ed469a24b721a55d4f2">generator_matrix_01</a> &#160;</td><td class="memItemRight" valign="bottom"><b><b><span class="vhdlchar">boolean</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">:</span><span class="vhdlchar">=</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">true</span><span class="vhdlchar"> </span></b></b></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="Ports"></a>
+Ports</h2></td></tr>
+ <tr class="memitem:gadfc2d5e995e9c6876b2e55bf6a5c4071"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="gadfc2d5e995e9c6876b2e55bf6a5c4071"></a>
+<a class="el" href="group___r_m_decoder.html#gadfc2d5e995e9c6876b2e55bf6a5c4071">clock</a> &#160;</td><td class="memItemRight" valign="bottom"> <b><b><span class="vhdlchar">in</span><span class="vhdlchar"> </span></b></b> <b><span class="vhdlchar">std_logic</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:ga446ea52ed8c4a84181a47d9165ce41a5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga446ea52ed8c4a84181a47d9165ce41a5"></a>
+<a class="el" href="group___r_m_decoder.html#ga446ea52ed8c4a84181a47d9165ce41a5">reset_n</a> &#160;</td><td class="memItemRight" valign="bottom"> <b><b><span class="vhdlchar">in</span><span class="vhdlchar"> </span></b></b> <b><span class="vhdlchar">std_logic</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:ga2b10c9545b143a051326b4159f5bb7e8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga2b10c9545b143a051326b4159f5bb7e8"></a>
+<a class="el" href="group___r_m_decoder.html#ga2b10c9545b143a051326b4159f5bb7e8">data_in</a> &#160;</td><td class="memItemRight" valign="bottom"> <b><b><span class="vhdlchar">in</span><span class="vhdlchar"> </span></b></b> <b><span class="vhdlchar">std_logic_vector</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">2</span> <span class="vhdlchar">*</span><span class="vhdlchar">*</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">m</span><span class="vhdlchar">-</span><span class="vhdlchar"> </span> <span class="vhdldigit">1</span> <span class="vhdlchar"> </span><span class="vhdlchar">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+<tr class="memitem:ga5b228b0942e33af121e97ced334b88e5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ga5b228b0942e33af121e97ced334b88e5"></a>
+<a class="el" href="group___r_m_decoder.html#ga5b228b0942e33af121e97ced334b88e5">data_out</a> &#160;</td><td class="memItemRight" valign="bottom"> <b><b><span class="vhdlchar">out</span><span class="vhdlchar"> </span></b></b> <b><span class="vhdlchar">std_logic_vector</span><span class="vhdlchar"> </span><span class="vhdlchar">(</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar"> </span><span class="vhdlchar">m</span><span class="vhdlchar"> </span><span class="vhdlchar">downto</span><span class="vhdlchar"> </span><span class="vhdlchar"> </span> <span class="vhdldigit">0</span> <span class="vhdlchar"> </span><span class="vhdlchar">)</span><span class="vhdlchar"> </span></b></td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Descrizione dettagliata</h2>
+<div class="textblock"><p>Implementazione VHDL del decodificatore per codici di Reed-Muller(1,m) </p>
+<p>Tale implementazione fa uso della tecnica con majority-voter ed e' pipelined, con numero di stadi delle pipe variabile in base al particolare codice di Reed-Muller. Il numero totale di stadi della pipe, in funzione di "m", e' 2m-4. Ad esempio, per codici RM(1,7), il numero di stadi della pipe e' 10. Il componente, in questo modo, manifesta, questo si, una latenza di 2m-4 colpi di clock, ma e' potenzialmente in grado di completare una decodifica per colpo di clock.<br />
+ Il seguente esempio istanzia un encoder ed un decoder. L'output dell'encoder viene posto in ingresso al decoder. L'input dell'encoder viene controllato attraverso un VIO. Lo stesso VIO viene usato anche per monitorare l'uscita dell'encoder e l'uscita del decoder, oltre che per controllare il segnale di reset di quest'ultimo.</p>
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;encoder : <a class="code" href="class_r_m_encoder.html">RMEncoder</a></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;    <span class="keywordflow">Generic</span> <span class="keywordflow">map</span> (   m                   =&gt; m,</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;                    generator_matrix_01  =&gt; generator_matrix_01<span class="vhdlchar">)</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    <span class="keywordflow">Port</span> <span class="keywordflow">map</span> (      data_in              =&gt; encoder_data_in,</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;                    data_out             =&gt; encoder_data_out <span class="vhdlchar">)</span>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;decoder : <a class="code" href="class_r_m_decoder.html">RMDecoder</a></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">Generic</span> <span class="keywordflow">map</span> (   m                   =&gt; m,</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;                    generator_matrix_01  =&gt; generator_matrix_01<span class="vhdlchar">)</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">Port</span> <span class="keywordflow">map</span> (      clock                =&gt; clock,</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                    reset_n              =&gt; reset_n,</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                    data_in              =&gt; encoder_data_out ,</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                    data_out             =&gt; decoder_data_out <span class="vhdlchar">)</span>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;vio : vio_0</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">Port</span> <span class="keywordflow">map</span> (  clk              =&gt; clock,</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                probe_in0        =&gt; encoder_data_out ,</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                probe_in1        =&gt; decoder_data_out ,</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                probe_out0       =&gt; encoder_data_in,</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                probe_out1<span class="vhdlchar">(</span><span class="vhdllogic">0</span><span class="vhdlchar">)</span>    =&gt; reset_n<span class="vhdlchar">)</span>;</div>
+</div><!-- fragment --><dl class="section warning"><dt>Avvertimento</dt><dd>I codici devono essere stati ottenuti con una matrice di generazione in forma canonica. Vedi il parametro generator_matrix_01.</dd></dl>
+<dl class="params"><dt>Parametri</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">m[in]</td><td>parametro "m" del codice di Reed-Muller; incide sulla dimensione, in bit, dell'input e dell' output del componente: l'input sara' 2^m bit, mentre l'output m+1 bit. Oltre che stabilire il particolare codice che e' possibile decifrare, incide sul numero di stadi della pipe di cui il decoder e' composto. Il numero totale di stadi della pipe, in funzione di "m", e' 2(m-3)+1. Ad esempio, per codici RM(1,7), il numero di stadi e' 9. </td></tr>
+    <tr><td class="paramname">generator_matrix_01[in]</td><td>permette di scegliere la matrice di generazione da usare in fase di decodifica. Scegliendo generator_matrix_01 =&gt; true, verra' usata una matrice<br />
+ 1111111111111111<br />
+ 0000000011111111<br />
+ 0000111100001111<br />
+ 0011001100110011<br />
+ 0101010101010101<br />
+ Se, invece, generator_matrix_01 =&gt; false, verra' usata una matrice<br />
+ 1111111111111111<br />
+ 1111111100000000<br />
+ 1111000011110000<br />
+ 1100110011001100<br />
+ 1010101010101010 </td></tr>
+    <tr><td class="paramname">clock[in]</td><td>segnale di clock </td></tr>
+    <tr><td class="paramname">reset_n[in]</td><td>segnale di reset asincrono, attivo basso </td></tr>
+    <tr><td class="paramname">data_in[in]</td><td>codice di Reed-Muller RM(1, m) da decodificare, di lunghezza 2^{m} bit </td></tr>
+    <tr><td class="paramname">data_out[out]</td><td>stringa di bit corrispondente al codice di Reed-Muller RM(1, m) decodificato, di lunghezza pari ad m bit </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="test"><dt><b><a class="el" href="test.html#_test000001">Test:</a></b></dt><dd>RM(1,m), m=3<br />
+ </dd></dl>
+<table class="doxtable">
+<tr>
+<th>data_in</th><th>data_out </th></tr>
+<tr>
+<td>x"00"</td><td>x"0" </td></tr>
+<tr>
+<td>x"55"</td><td>x"1" </td></tr>
+<tr>
+<td>x"33"</td><td>x"2" </td></tr>
+<tr>
+<td>x"66"</td><td>x"3" </td></tr>
+<tr>
+<td>x"0f"</td><td>x"4" </td></tr>
+<tr>
+<td>x"5a"</td><td>x"5" </td></tr>
+<tr>
+<td>x"3c"</td><td>x"6" </td></tr>
+<tr>
+<td>x"69"</td><td>x"7" </td></tr>
+<tr>
+<td>x"ff"</td><td>x"8" </td></tr>
+<tr>
+<td>x"aa"</td><td>x"9" </td></tr>
+<tr>
+<td>x"cc"</td><td>x"a" </td></tr>
+<tr>
+<td>x"99"</td><td>x"b" </td></tr>
+<tr>
+<td>x"f0"</td><td>x"c" </td></tr>
+<tr>
+<td>x"a5"</td><td>x"d" </td></tr>
+<tr>
+<td>x"c3"</td><td>x"e" </td></tr>
+<tr>
+<td>x"96"</td><td>x"f" </td></tr>
+</table>
+<p>RM(1,m), m=4<br />
+ </p><table class="doxtable">
+<tr>
+<th>data_in</th><th>data_out </th></tr>
+<tr>
+<td>x"0000"</td><td>x"00" </td></tr>
+<tr>
+<td>x"5555"</td><td>x"01" </td></tr>
+<tr>
+<td>x"3333"</td><td>x"02" </td></tr>
+<tr>
+<td>x"6666"</td><td>x"03" </td></tr>
+<tr>
+<td>x"0f0f"</td><td>x"04" </td></tr>
+<tr>
+<td>x"5a5a"</td><td>x"05" </td></tr>
+<tr>
+<td>x"3c3c"</td><td>x"06" </td></tr>
+<tr>
+<td>x"6969"</td><td>x"07" </td></tr>
+<tr>
+<td>x"00ff"</td><td>x"08" </td></tr>
+<tr>
+<td>x"55aa"</td><td>x"09" </td></tr>
+<tr>
+<td>x"33cc"</td><td>x"0a" </td></tr>
+<tr>
+<td>x"6699"</td><td>x"0b" </td></tr>
+<tr>
+<td>x"0ff0"</td><td>x"0c" </td></tr>
+<tr>
+<td>x"5aa5"</td><td>x"0d" </td></tr>
+<tr>
+<td>x"3cc3"</td><td>x"0e" </td></tr>
+<tr>
+<td>x"6996"</td><td>x"0f" </td></tr>
+<tr>
+<td>x"ffff"</td><td>x"10" </td></tr>
+<tr>
+<td>x"aaaa"</td><td>x"11" </td></tr>
+<tr>
+<td>x"cccc"</td><td>x"12" </td></tr>
+<tr>
+<td>x"9999"</td><td>x"13" </td></tr>
+<tr>
+<td>x"f0f0"</td><td>x"14" </td></tr>
+<tr>
+<td>x"a5a5"</td><td>x"15" </td></tr>
+<tr>
+<td>x"c3c3"</td><td>x"16" </td></tr>
+<tr>
+<td>x"9696"</td><td>x"17" </td></tr>
+<tr>
+<td>x"ff00"</td><td>x"18" </td></tr>
+<tr>
+<td>x"aa55"</td><td>x"19" </td></tr>
+<tr>
+<td>x"cc33"</td><td>x"1a" </td></tr>
+<tr>
+<td>x"9966"</td><td>x"1b" </td></tr>
+<tr>
+<td>x"f00f"</td><td>x"1c" </td></tr>
+<tr>
+<td>x"a55a"</td><td>x"1d" </td></tr>
+<tr>
+<td>x"c33c"</td><td>x"1e" </td></tr>
+<tr>
+<td>x"9669"</td><td>x"1f" </td></tr>
+</table>
+</div><hr/>La documentazione per questa classe è stata generata a partire dal seguente file:<ul>
+<li>RMDecoder/<a class="el" href="_r_m_decoder_8vhd.html">RMDecoder.vhd</a></li>
+</ul>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="class_r_m_decoder.html">RMDecoder</a></li>
+    <li class="footer">Generato Mer 17 Mag 2017 00:07:35 per Reed-Muller Decoder/Encoder in VHDL da
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
+  </ul>
+</div>
+</body>
+</html>

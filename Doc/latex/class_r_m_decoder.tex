@@ -1,0 +1,197 @@
+\hypertarget{class_r_m_decoder}{\section{R\+M\+Decoder Entity Reference}
+\label{class_r_m_decoder}\index{R\+M\+Decoder@{R\+M\+Decoder}}
+}
+
+
+Implementazione V\+H\+D\+L del decodificatore per codici di Reed-\/\+Muller(1,m)  
+
+
+
+
+Diagramma delle classi per R\+M\+Decoder\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_r_m_decoder__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagramma di collaborazione per R\+M\+Decoder\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_r_m_decoder__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Entities}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_r_m_decoder_1_1_structural}{Structural} architecture
+\end{DoxyCompactItemize}
+\subsection*{Libraries}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_r_m_decoder_ga0a6af6eef40212dbaf130d57ce711256}{\hyperlink{group___r_m_decoder_ga0a6af6eef40212dbaf130d57ce711256}{ieee} }\label{class_r_m_decoder_ga0a6af6eef40212dbaf130d57ce711256}
+
+\end{DoxyCompactItemize}
+\subsection*{Use Clauses}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_r_m_decoder_gacd03516902501cd1c7296a98e22c6fcb}{\hyperlink{group___r_m_decoder_gacd03516902501cd1c7296a98e22c6fcb}{std\+\_\+logic\+\_\+1164}   }\label{class_r_m_decoder_gacd03516902501cd1c7296a98e22c6fcb}
+
+\item 
+\hypertarget{class_r_m_decoder_ga2edc34402b573437d5f25fa90ba4013e}{\hyperlink{group___r_m_decoder_ga2edc34402b573437d5f25fa90ba4013e}{numeric\+\_\+std}   }\label{class_r_m_decoder_ga2edc34402b573437d5f25fa90ba4013e}
+
+\end{DoxyCompactItemize}
+\subsection*{Generics}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_r_m_decoder_gad4fc2116999466ec7397a88a6e28908b}{\hyperlink{group___r_m_decoder_gad4fc2116999466ec7397a88a6e28908b}{m} {\bfseries {\bfseries \textcolor{vhdlchar}{natural}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{6} \textcolor{vhdlchar}{ }}}}\label{class_r_m_decoder_gad4fc2116999466ec7397a88a6e28908b}
+
+\item 
+\hypertarget{class_r_m_decoder_gaa6a3bcd7caff4ed469a24b721a55d4f2}{\hyperlink{group___r_m_decoder_gaa6a3bcd7caff4ed469a24b721a55d4f2}{generator\+\_\+matrix\+\_\+01} {\bfseries {\bfseries \textcolor{vhdlchar}{boolean}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{true}\textcolor{vhdlchar}{ }}}}\label{class_r_m_decoder_gaa6a3bcd7caff4ed469a24b721a55d4f2}
+
+\end{DoxyCompactItemize}
+\subsection*{Ports}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_r_m_decoder_gadfc2d5e995e9c6876b2e55bf6a5c4071}{\hyperlink{group___r_m_decoder_gadfc2d5e995e9c6876b2e55bf6a5c4071}{clock}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic}\textcolor{vhdlchar}{ }} }\label{class_r_m_decoder_gadfc2d5e995e9c6876b2e55bf6a5c4071}
+
+\item 
+\hypertarget{class_r_m_decoder_ga446ea52ed8c4a84181a47d9165ce41a5}{\hyperlink{group___r_m_decoder_ga446ea52ed8c4a84181a47d9165ce41a5}{reset\+\_\+n}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic}\textcolor{vhdlchar}{ }} }\label{class_r_m_decoder_ga446ea52ed8c4a84181a47d9165ce41a5}
+
+\item 
+\hypertarget{class_r_m_decoder_ga2b10c9545b143a051326b4159f5bb7e8}{\hyperlink{group___r_m_decoder_ga2b10c9545b143a051326b4159f5bb7e8}{data\+\_\+in}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{2} \textcolor{vhdlchar}{$\ast$}\textcolor{vhdlchar}{$\ast$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{m}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{class_r_m_decoder_ga2b10c9545b143a051326b4159f5bb7e8}
+
+\item 
+\hypertarget{class_r_m_decoder_ga5b228b0942e33af121e97ced334b88e5}{\hyperlink{group___r_m_decoder_ga5b228b0942e33af121e97ced334b88e5}{data\+\_\+out}  {\bfseries {\bfseries \textcolor{vhdlchar}{out}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{m}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{class_r_m_decoder_ga5b228b0942e33af121e97ced334b88e5}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Descrizione dettagliata}
+Implementazione V\+H\+D\+L del decodificatore per codici di Reed-\/\+Muller(1,m) 
+
+Tale implementazione fa uso della tecnica con majority-\/voter ed e' pipelined, con numero di stadi delle pipe variabile in base al particolare codice di Reed-\/\+Muller. Il numero totale di stadi della pipe, in funzione di \char`\"{}m\char`\"{}, e' 2m-\/4. Ad esempio, per codici R\+M(1,7), il numero di stadi della pipe e' 10. Il componente, in questo modo, manifesta, questo si, una latenza di 2m-\/4 colpi di clock, ma e' potenzialmente in grado di completare una decodifica per colpo di clock.~\newline
+ Il seguente esempio istanzia un encoder ed un decoder. L'output dell'encoder viene posto in ingresso al decoder. L'input dell'encoder viene controllato attraverso un V\+I\+O. Lo stesso V\+I\+O viene usato anche per monitorare l'uscita dell'encoder e l'uscita del decoder, oltre che per controllare il segnale di reset di quest'ultimo.
+
+
+\begin{DoxyCode}
+1 encoder : \hyperlink{class_r_m_encoder}{RMEncoder}
+2     \textcolor{keywordflow}{Generic} \textcolor{keywordflow}{map} (   m                   => m,
+3                     generator\_matrix\_01  => generator\_matrix\_01\textcolor{vhdlchar}{)}
+4     \textcolor{keywordflow}{Port} \textcolor{keywordflow}{map} (      data\_in              => encoder\_data\_in,
+5                     data\_out             => encoder\_data\_out \textcolor{vhdlchar}{)};
+6 
+7 decoder : \hyperlink{class_r_m_decoder}{RMDecoder}
+8     \textcolor{keywordflow}{Generic} \textcolor{keywordflow}{map} (   m                   => m,
+9                     generator\_matrix\_01  => generator\_matrix\_01\textcolor{vhdlchar}{)}
+10     \textcolor{keywordflow}{Port} \textcolor{keywordflow}{map} (      clock                => clock,
+11                     reset\_n              => reset\_n,
+12                     data\_in              => encoder\_data\_out ,
+13                     data\_out             => decoder\_data\_out \textcolor{vhdlchar}{)};
+14 
+15 vio : vio\_0
+16     \textcolor{keywordflow}{Port} \textcolor{keywordflow}{map} (  clk              => clock,
+17                 probe\_in0        => encoder\_data\_out ,
+18                 probe\_in1        => decoder\_data\_out ,
+19                 probe\_out0       => encoder\_data\_in,
+20                 probe\_out1\textcolor{vhdlchar}{(}\textcolor{vhdllogic}{0}\textcolor{vhdlchar}{)}    => reset\_n\textcolor{vhdlchar}{)};
+\end{DoxyCode}
+
+
+\begin{DoxyWarning}{Avvertimento}
+I codici devono essere stati ottenuti con una matrice di generazione in forma canonica. Vedi il parametro generator\+\_\+matrix\+\_\+01.
+\end{DoxyWarning}
+
+\begin{DoxyParams}{Parametri}
+{\em m\mbox{[}in\mbox{]}} & parametro \char`\"{}m\char`\"{} del codice di Reed-\/\+Muller; incide sulla dimensione, in bit, dell'input e dell' output del componente\+: l'input sara' 2$^\wedge$m bit, mentre l'output m+1 bit. Oltre che stabilire il particolare codice che e' possibile decifrare, incide sul numero di stadi della pipe di cui il decoder e' composto. Il numero totale di stadi della pipe, in funzione di \char`\"{}m\char`\"{}, e' 2(m-\/3)+1. Ad esempio, per codici R\+M(1,7), il numero di stadi e' 9. \\
+\hline
+{\em generator\+\_\+matrix\+\_\+01\mbox{[}in\mbox{]}} & permette di scegliere la matrice di generazione da usare in fase di decodifica. Scegliendo generator\+\_\+matrix\+\_\+01 =$>$ true, verra' usata una matrice~\newline
+ 1111111111111111~\newline
+ 0000000011111111~\newline
+ 0000111100001111~\newline
+ 0011001100110011~\newline
+ 0101010101010101~\newline
+ Se, invece, generator\+\_\+matrix\+\_\+01 =$>$ false, verra' usata una matrice~\newline
+ 1111111111111111~\newline
+ 1111111100000000~\newline
+ 1111000011110000~\newline
+ 1100110011001100~\newline
+ 1010101010101010 \\
+\hline
+{\em clock\mbox{[}in\mbox{]}} & segnale di clock \\
+\hline
+{\em reset\+\_\+n\mbox{[}in\mbox{]}} & segnale di reset asincrono, attivo basso \\
+\hline
+{\em data\+\_\+in\mbox{[}in\mbox{]}} & codice di Reed-\/\+Muller R\+M(1, m) da decodificare, di lunghezza 2$^\wedge$\{m\} bit \\
+\hline
+{\em data\+\_\+out\mbox{[}out\mbox{]}} & stringa di bit corrispondente al codice di Reed-\/\+Muller R\+M(1, m) decodificato, di lunghezza pari ad m bit \\
+\hline
+\end{DoxyParams}
+\begin{DoxyRefDesc}{Test}
+\item[\hyperlink{test__test000001}{Test}]R\+M(1,m), m=3~\newline
+ \end{DoxyRefDesc}
+\begin{TabularC}{2}
+\hline
+\rowcolor{lightgray}{\bf data\+\_\+in}&{\bf data\+\_\+out }\\\cline{1-2}
+x\char`\"{}00\char`\"{}&x\char`\"{}0\char`\"{} \\\cline{1-2}
+x\char`\"{}55\char`\"{}&x\char`\"{}1\char`\"{} \\\cline{1-2}
+x\char`\"{}33\char`\"{}&x\char`\"{}2\char`\"{} \\\cline{1-2}
+x\char`\"{}66\char`\"{}&x\char`\"{}3\char`\"{} \\\cline{1-2}
+x\char`\"{}0f\char`\"{}&x\char`\"{}4\char`\"{} \\\cline{1-2}
+x\char`\"{}5a\char`\"{}&x\char`\"{}5\char`\"{} \\\cline{1-2}
+x\char`\"{}3c\char`\"{}&x\char`\"{}6\char`\"{} \\\cline{1-2}
+x\char`\"{}69\char`\"{}&x\char`\"{}7\char`\"{} \\\cline{1-2}
+x\char`\"{}ff\char`\"{}&x\char`\"{}8\char`\"{} \\\cline{1-2}
+x\char`\"{}aa\char`\"{}&x\char`\"{}9\char`\"{} \\\cline{1-2}
+x\char`\"{}cc\char`\"{}&x\char`\"{}a\char`\"{} \\\cline{1-2}
+x\char`\"{}99\char`\"{}&x\char`\"{}b\char`\"{} \\\cline{1-2}
+x\char`\"{}f0\char`\"{}&x\char`\"{}c\char`\"{} \\\cline{1-2}
+x\char`\"{}a5\char`\"{}&x\char`\"{}d\char`\"{} \\\cline{1-2}
+x\char`\"{}c3\char`\"{}&x\char`\"{}e\char`\"{} \\\cline{1-2}
+x\char`\"{}96\char`\"{}&x\char`\"{}f\char`\"{} \\\cline{1-2}
+\end{TabularC}
+R\+M(1,m), m=4~\newline
+ \begin{TabularC}{2}
+\hline
+\rowcolor{lightgray}{\bf data\+\_\+in}&{\bf data\+\_\+out }\\\cline{1-2}
+x\char`\"{}0000\char`\"{}&x\char`\"{}00\char`\"{} \\\cline{1-2}
+x\char`\"{}5555\char`\"{}&x\char`\"{}01\char`\"{} \\\cline{1-2}
+x\char`\"{}3333\char`\"{}&x\char`\"{}02\char`\"{} \\\cline{1-2}
+x\char`\"{}6666\char`\"{}&x\char`\"{}03\char`\"{} \\\cline{1-2}
+x\char`\"{}0f0f\char`\"{}&x\char`\"{}04\char`\"{} \\\cline{1-2}
+x\char`\"{}5a5a\char`\"{}&x\char`\"{}05\char`\"{} \\\cline{1-2}
+x\char`\"{}3c3c\char`\"{}&x\char`\"{}06\char`\"{} \\\cline{1-2}
+x\char`\"{}6969\char`\"{}&x\char`\"{}07\char`\"{} \\\cline{1-2}
+x\char`\"{}00ff\char`\"{}&x\char`\"{}08\char`\"{} \\\cline{1-2}
+x\char`\"{}55aa\char`\"{}&x\char`\"{}09\char`\"{} \\\cline{1-2}
+x\char`\"{}33cc\char`\"{}&x\char`\"{}0a\char`\"{} \\\cline{1-2}
+x\char`\"{}6699\char`\"{}&x\char`\"{}0b\char`\"{} \\\cline{1-2}
+x\char`\"{}0ff0\char`\"{}&x\char`\"{}0c\char`\"{} \\\cline{1-2}
+x\char`\"{}5aa5\char`\"{}&x\char`\"{}0d\char`\"{} \\\cline{1-2}
+x\char`\"{}3cc3\char`\"{}&x\char`\"{}0e\char`\"{} \\\cline{1-2}
+x\char`\"{}6996\char`\"{}&x\char`\"{}0f\char`\"{} \\\cline{1-2}
+x\char`\"{}ffff\char`\"{}&x\char`\"{}10\char`\"{} \\\cline{1-2}
+x\char`\"{}aaaa\char`\"{}&x\char`\"{}11\char`\"{} \\\cline{1-2}
+x\char`\"{}cccc\char`\"{}&x\char`\"{}12\char`\"{} \\\cline{1-2}
+x\char`\"{}9999\char`\"{}&x\char`\"{}13\char`\"{} \\\cline{1-2}
+x\char`\"{}f0f0\char`\"{}&x\char`\"{}14\char`\"{} \\\cline{1-2}
+x\char`\"{}a5a5\char`\"{}&x\char`\"{}15\char`\"{} \\\cline{1-2}
+x\char`\"{}c3c3\char`\"{}&x\char`\"{}16\char`\"{} \\\cline{1-2}
+x\char`\"{}9696\char`\"{}&x\char`\"{}17\char`\"{} \\\cline{1-2}
+x\char`\"{}ff00\char`\"{}&x\char`\"{}18\char`\"{} \\\cline{1-2}
+x\char`\"{}aa55\char`\"{}&x\char`\"{}19\char`\"{} \\\cline{1-2}
+x\char`\"{}cc33\char`\"{}&x\char`\"{}1a\char`\"{} \\\cline{1-2}
+x\char`\"{}9966\char`\"{}&x\char`\"{}1b\char`\"{} \\\cline{1-2}
+x\char`\"{}f00f\char`\"{}&x\char`\"{}1c\char`\"{} \\\cline{1-2}
+x\char`\"{}a55a\char`\"{}&x\char`\"{}1d\char`\"{} \\\cline{1-2}
+x\char`\"{}c33c\char`\"{}&x\char`\"{}1e\char`\"{} \\\cline{1-2}
+x\char`\"{}9669\char`\"{}&x\char`\"{}1f\char`\"{} \\\cline{1-2}
+\end{TabularC}
+
+
+La documentazione per questa classe è stata generata a partire dal seguente file\+:\begin{DoxyCompactItemize}
+\item 
+R\+M\+Decoder/\hyperlink{_r_m_decoder_8vhd}{R\+M\+Decoder.\+vhd}\end{DoxyCompactItemize}

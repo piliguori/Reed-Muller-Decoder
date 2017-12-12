@@ -1,0 +1,9 @@
+<map id="generic_adder_pipelined" name="generic_adder_pipelined">
+<area shape="rect" id="node6" href="$classmajority__voter.html" title="Implementazione VHDL Structural del majority voter. " alt="" coords="77,304,181,331"/>
+<area shape="rect" id="node2" href="$classadder__block.html" title="Implementazione VHDL Structural di un generico livello del componente generic_adder. Tale livello è costituito da 2^level addizionatori che lavorano in parallelo, di dimensione dipendente dal livello corrente: N = number_bit_for_operand + log2(number_operand)&#45;level&#45;1. " alt="" coords="23,155,115,181"/>
+<area shape="rect" id="node3" href="$classripple__carry__adder.html" title="Implementazione VHDL Structural di un Ripple Carry Adder generico a N bit. " alt="" coords="5,80,133,107"/>
+<area shape="rect" id="node4" href="$classfull__adder.html" title="full_adder" alt="" coords="30,5,109,32"/>
+<area shape="rect" id="node5" href="$class_generic_buffer.html" title="Registro di dimensione generica. " alt="" coords="139,155,242,181"/>
+<area shape="rect" id="node7" href="$class_r_m_decoder.html" title="Implementazione VHDL del decodificatore per codici di Reed&#45;Muller(1,m) " alt="" coords="83,379,175,405"/>
+<area shape="rect" id="node8" href="$classtb___r_m_decoder.html" title="tb_RMDecoder" alt="" coords="74,453,185,480"/>
+</map>

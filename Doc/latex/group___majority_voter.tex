@@ -1,0 +1,339 @@
+\hypertarget{group___majority_voter}{\section{Majority\+Voter}
+\label{group___majority_voter}\index{Majority\+Voter@{Majority\+Voter}}
+}
+\subsection*{Entities}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classadder__block}{adder\+\_\+block} entity
+\begin{DoxyCompactList}\small\item\em Implementazione V\+H\+D\+L \hyperlink{classadder__block_1_1_structural}{Structural} di un generico livello del componente generic\+\_\+adder. Tale livello è costituito da 2$^\wedge$level addizionatori che lavorano in parallelo, di dimensione dipendente dal livello corrente\+: N = number\+\_\+bit\+\_\+for\+\_\+operand + log2(number\+\_\+operand)-\/level-\/1. \end{DoxyCompactList}\item 
+\hyperlink{classadder__block_1_1_structural}{Structural} architecture
+\item 
+\hyperlink{classcomparator2bit}{comparator2bit} entity
+\begin{DoxyCompactList}\small\item\em Implementazione V\+H\+D\+L Data Flow di un comparatore a 2 bit che tiene conto anche del risutato di un confronto precedente. \end{DoxyCompactList}\item 
+\hyperlink{classcomparator2bit_1_1_data_flow}{Data\+Flow} architecture
+\item 
+\hyperlink{classfull__adder}{full\+\_\+adder} entity
+\item 
+\hyperlink{classgeneric__adder__pipelined}{generic\+\_\+adder\+\_\+pipelined} entity
+\begin{DoxyCompactList}\small\item\em Implementazione V\+H\+D\+L \hyperlink{classgeneric__adder__pipelined_1_1_structural}{Structural} di un addizionatore generico pipelined \+: M operandi di N bit. \end{DoxyCompactList}\item 
+\hyperlink{classgeneric__comparator}{generic\+\_\+comparator} entity
+\begin{DoxyCompactList}\small\item\em Implementazione V\+H\+D\+L \hyperlink{classgeneric__comparator_1_1_structural}{Structural} di un generico comparatore a maggioranza di due stringhe di width bit. Tale implementazione genera una catena di \char`\"{}width\char`\"{} comparatori a 2 bit. \end{DoxyCompactList}\item 
+\hyperlink{classmajority__voter}{majority\+\_\+voter} entity
+\begin{DoxyCompactList}\small\item\em Implementazione V\+H\+D\+L \hyperlink{classmajority__voter_1_1_structural}{Structural} del majority voter. \end{DoxyCompactList}\item 
+\hyperlink{classparallel__counter__4}{parallel\+\_\+counter\+\_\+4} entity
+\item 
+\hyperlink{classparallel__counter__block}{parallel\+\_\+counter\+\_\+block} entity
+\begin{DoxyCompactList}\small\item\em Implementazione V\+H\+D\+L \hyperlink{classparallel__counter__block_1_1_structural}{Structural} del Modulo 1 \+: genera width/4 contatori paralleli a 4 bit. Data una stringa di input di width bit, multipla di 4, assegna a ogni contatore un nibble. Ogni contatore parallelo a 4 bit codifica in binario il numero di 1 presente nel nibble di competenza. \end{DoxyCompactList}\item 
+\hyperlink{classripple__carry__adder}{ripple\+\_\+carry\+\_\+adder} entity
+\begin{DoxyCompactList}\small\item\em Implementazione V\+H\+D\+L Structural di un Ripple Carry Adder generico a N bit. \end{DoxyCompactList}\item 
+\hyperlink{classripple__carry__adder_1_1structural}{structural} architecture
+\end{DoxyCompactItemize}
+\subsection*{Libraries}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{group___majority_voter_gae4f03c286607f3181e16b9aa12d0c6d4}{\hyperlink{group___majority_voter_gae4f03c286607f3181e16b9aa12d0c6d4}{I\+E\+E\+E} }\label{group___majority_voter_gae4f03c286607f3181e16b9aa12d0c6d4}
+
+\end{DoxyCompactItemize}
+\subsection*{Use Clauses}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{\hyperlink{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+1164}   }\label{group___majority_voter_gaa4b2b25246a821511120e3149b003563}
+
+\item 
+\hypertarget{group___majority_voter_gae00f3f04545af57582ff10609eee23e2}{\hyperlink{group___majority_voter_gae00f3f04545af57582ff10609eee23e2}{N\+U\+M\+E\+R\+I\+C\+\_\+\+S\+T\+D}   }\label{group___majority_voter_gae00f3f04545af57582ff10609eee23e2}
+
+\item 
+\hypertarget{group___majority_voter_ga6af860958a1bb510ee63ced87b57e11a}{\hyperlink{group___majority_voter_ga6af860958a1bb510ee63ced87b57e11a}{M\+A\+T\+H\+\_\+\+R\+E\+A\+L}   }\label{group___majority_voter_ga6af860958a1bb510ee63ced87b57e11a}
+
+\item 
+\hypertarget{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{\hyperlink{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+1164}   }\label{group___majority_voter_gaa4b2b25246a821511120e3149b003563}
+
+\item 
+\hypertarget{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{\hyperlink{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+1164}   }\label{group___majority_voter_gaa4b2b25246a821511120e3149b003563}
+
+\item 
+\hypertarget{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{\hyperlink{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+1164}   }\label{group___majority_voter_gaa4b2b25246a821511120e3149b003563}
+
+\item 
+\hypertarget{group___majority_voter_gae00f3f04545af57582ff10609eee23e2}{\hyperlink{group___majority_voter_gae00f3f04545af57582ff10609eee23e2}{N\+U\+M\+E\+R\+I\+C\+\_\+\+S\+T\+D}   }\label{group___majority_voter_gae00f3f04545af57582ff10609eee23e2}
+
+\item 
+\hypertarget{group___majority_voter_ga6af860958a1bb510ee63ced87b57e11a}{\hyperlink{group___majority_voter_ga6af860958a1bb510ee63ced87b57e11a}{M\+A\+T\+H\+\_\+\+R\+E\+A\+L}   }\label{group___majority_voter_ga6af860958a1bb510ee63ced87b57e11a}
+
+\item 
+\hypertarget{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{\hyperlink{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+1164}   }\label{group___majority_voter_gaa4b2b25246a821511120e3149b003563}
+
+\item 
+\hypertarget{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{\hyperlink{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+1164}   }\label{group___majority_voter_gaa4b2b25246a821511120e3149b003563}
+
+\item 
+\hypertarget{group___majority_voter_gae00f3f04545af57582ff10609eee23e2}{\hyperlink{group___majority_voter_gae00f3f04545af57582ff10609eee23e2}{N\+U\+M\+E\+R\+I\+C\+\_\+\+S\+T\+D}   }\label{group___majority_voter_gae00f3f04545af57582ff10609eee23e2}
+
+\item 
+\hypertarget{group___majority_voter_ga6af860958a1bb510ee63ced87b57e11a}{\hyperlink{group___majority_voter_ga6af860958a1bb510ee63ced87b57e11a}{M\+A\+T\+H\+\_\+\+R\+E\+A\+L}   }\label{group___majority_voter_ga6af860958a1bb510ee63ced87b57e11a}
+
+\item 
+\hypertarget{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{\hyperlink{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+1164}   }\label{group___majority_voter_gaa4b2b25246a821511120e3149b003563}
+
+\item 
+\hypertarget{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{\hyperlink{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+1164}   }\label{group___majority_voter_gaa4b2b25246a821511120e3149b003563}
+
+\item 
+\hypertarget{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{\hyperlink{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+1164}   }\label{group___majority_voter_gaa4b2b25246a821511120e3149b003563}
+
+\end{DoxyCompactItemize}
+\subsection*{Components}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{group___majority_voter_gaa3a0644d51d33858d165586a5fbb42e1}{\hyperlink{group___majority_voter_gaa3a0644d51d33858d165586a5fbb42e1}{ripple\+\_\+carry\+\_\+adder}  {\bfseries }  }\label{group___majority_voter_gaa3a0644d51d33858d165586a5fbb42e1}
+
+\item 
+\hypertarget{group___majority_voter_ga8246d08a486d28a27ac22b403f892e6e}{\hyperlink{group___majority_voter_ga8246d08a486d28a27ac22b403f892e6e}{adder\+\_\+block}  {\bfseries }  }\label{group___majority_voter_ga8246d08a486d28a27ac22b403f892e6e}
+
+\item 
+\hypertarget{group___majority_voter_ga26754353fa942392a9799290b42c41c7}{\hyperlink{group___majority_voter_ga26754353fa942392a9799290b42c41c7}{Generic\+Buffer}  {\bfseries }  }\label{group___majority_voter_ga26754353fa942392a9799290b42c41c7}
+
+\item 
+\hypertarget{group___majority_voter_ga76e654bcbcdc3be857beacb2216cf5b1}{\hyperlink{group___majority_voter_ga76e654bcbcdc3be857beacb2216cf5b1}{comparator2bit}  {\bfseries }  }\label{group___majority_voter_ga76e654bcbcdc3be857beacb2216cf5b1}
+
+\item 
+\hypertarget{group___majority_voter_ga815ccfeb72ac23e27e677e553338e1e7}{\hyperlink{group___majority_voter_ga815ccfeb72ac23e27e677e553338e1e7}{parallel\+\_\+counter\+\_\+block}  {\bfseries }  }\label{group___majority_voter_ga815ccfeb72ac23e27e677e553338e1e7}
+
+\item 
+\hypertarget{group___majority_voter_ga29987d7f0a623ac9f1d6412fc136dd29}{\hyperlink{group___majority_voter_ga29987d7f0a623ac9f1d6412fc136dd29}{generic\+\_\+adder\+\_\+pipelined}  {\bfseries }  }\label{group___majority_voter_ga29987d7f0a623ac9f1d6412fc136dd29}
+
+\item 
+\hypertarget{group___majority_voter_gab477f6800746b156c7ef1bb9dc2547ab}{\hyperlink{group___majority_voter_gab477f6800746b156c7ef1bb9dc2547ab}{generic\+\_\+comparator}  {\bfseries }  }\label{group___majority_voter_gab477f6800746b156c7ef1bb9dc2547ab}
+
+\item 
+\hypertarget{group___majority_voter_gafc1dc8c8d5b91fffc35f2b2eede724ce}{\hyperlink{group___majority_voter_gafc1dc8c8d5b91fffc35f2b2eede724ce}{full\+\_\+adder}  {\bfseries }  }\label{group___majority_voter_gafc1dc8c8d5b91fffc35f2b2eede724ce}
+
+\item 
+\hypertarget{group___majority_voter_ga33875bebede9b27e9a645ca5d664c93e}{\hyperlink{group___majority_voter_ga33875bebede9b27e9a645ca5d664c93e}{parallel\+\_\+counter\+\_\+4}  {\bfseries }  }\label{group___majority_voter_ga33875bebede9b27e9a645ca5d664c93e}
+
+\item 
+\hypertarget{group___majority_voter_gafc1dc8c8d5b91fffc35f2b2eede724ce}{\hyperlink{group___majority_voter_gafc1dc8c8d5b91fffc35f2b2eede724ce}{full\+\_\+adder}  {\bfseries }  }\label{group___majority_voter_gafc1dc8c8d5b91fffc35f2b2eede724ce}
+
+\end{DoxyCompactItemize}
+\subsection*{Constants}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{group___majority_voter_gad3f7d3a495e10fb501393b29e545970c}{\hyperlink{group___majority_voter_gad3f7d3a495e10fb501393b29e545970c}{N} {\bfseries \textcolor{vhdlchar}{natural}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+bit\+\_\+for\+\_\+operand}\textcolor{vhdlchar}{+}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{natural}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{log2}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{real}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+operand}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{level}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }} }\label{group___majority_voter_gad3f7d3a495e10fb501393b29e545970c}
+
+\end{DoxyCompactItemize}
+\subsection*{Types}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{group___majority_voter_ga53fbafb9ce3d3c16387cebcfd7c532b4}{{\bfseries \hyperlink{group___majority_voter_ga53fbafb9ce3d3c16387cebcfd7c532b4}{tmp\+\_\+sum\+\_\+array}{\bfseries \textcolor{vhdlchar}{array}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{natural}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{range}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{$<$$>$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{of}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+operand}\textcolor{vhdlchar}{$\ast$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+bit\+\_\+for\+\_\+operand}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }}} }\label{group___majority_voter_ga53fbafb9ce3d3c16387cebcfd7c532b4}
+
+\end{DoxyCompactItemize}
+\subsection*{Generics}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{group___majority_voter_gaada2870b1b9b57c2dd2c99528a9d0c9f}{\hyperlink{group___majority_voter_gaada2870b1b9b57c2dd2c99528a9d0c9f}{number\+\_\+operand} {\bfseries {\bfseries \textcolor{vhdlchar}{N\+A\+T\+U\+R\+A\+L}\textcolor{vhdlchar}{ }}}}\label{group___majority_voter_gaada2870b1b9b57c2dd2c99528a9d0c9f}
+
+\item 
+\hypertarget{group___majority_voter_gaa9b5812094fc3ef126f3d8e4dab5292e}{\hyperlink{group___majority_voter_gaa9b5812094fc3ef126f3d8e4dab5292e}{number\+\_\+bit\+\_\+for\+\_\+operand} {\bfseries {\bfseries \textcolor{vhdlchar}{N\+A\+T\+U\+R\+A\+L}\textcolor{vhdlchar}{ }}}}\label{group___majority_voter_gaa9b5812094fc3ef126f3d8e4dab5292e}
+
+\item 
+\hypertarget{group___majority_voter_gaf3b6f2fa50cdb3b92a10197ca4e207f9}{\hyperlink{group___majority_voter_gaf3b6f2fa50cdb3b92a10197ca4e207f9}{level} {\bfseries {\bfseries \textcolor{vhdlchar}{N\+A\+T\+U\+R\+A\+L}\textcolor{vhdlchar}{ }}}}\label{group___majority_voter_gaf3b6f2fa50cdb3b92a10197ca4e207f9}
+
+\item 
+\hypertarget{group___majority_voter_ga391d71eb279c0942fd4f72f35110ebcf}{\hyperlink{group___majority_voter_ga391d71eb279c0942fd4f72f35110ebcf}{number\+\_\+operand} {\bfseries {\bfseries \textcolor{vhdlchar}{N\+A\+T\+U\+R\+A\+L}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{2} \textcolor{vhdlchar}{ }}}}\label{group___majority_voter_ga391d71eb279c0942fd4f72f35110ebcf}
+
+\item 
+\hypertarget{group___majority_voter_gae919dbd8a1b11697f75ab57736802493}{\hyperlink{group___majority_voter_gae919dbd8a1b11697f75ab57736802493}{number\+\_\+bit\+\_\+for\+\_\+operand} {\bfseries {\bfseries \textcolor{vhdlchar}{N\+A\+T\+U\+R\+A\+L}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{3} \textcolor{vhdlchar}{ }}}}\label{group___majority_voter_gae919dbd8a1b11697f75ab57736802493}
+
+\item 
+\hypertarget{group___majority_voter_ga93ec5006d2e0a77a21f35a7e3c1ca827}{\hyperlink{group___majority_voter_ga93ec5006d2e0a77a21f35a7e3c1ca827}{width} {\bfseries {\bfseries \textcolor{vhdlchar}{N\+A\+T\+U\+R\+A\+L}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{8} \textcolor{vhdlchar}{ }}}}\label{group___majority_voter_ga93ec5006d2e0a77a21f35a7e3c1ca827}
+
+\item 
+\hypertarget{group___majority_voter_ga1f4ffccc38a894827f97741ab3077ef2}{\hyperlink{group___majority_voter_ga1f4ffccc38a894827f97741ab3077ef2}{width} {\bfseries {\bfseries \textcolor{vhdlchar}{N\+A\+T\+U\+R\+A\+L}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{64} \textcolor{vhdlchar}{ }}}}\label{group___majority_voter_ga1f4ffccc38a894827f97741ab3077ef2}
+
+\item 
+\hypertarget{group___majority_voter_ga93ec5006d2e0a77a21f35a7e3c1ca827}{\hyperlink{group___majority_voter_ga93ec5006d2e0a77a21f35a7e3c1ca827}{width} {\bfseries {\bfseries \textcolor{vhdlchar}{N\+A\+T\+U\+R\+A\+L}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{8} \textcolor{vhdlchar}{ }}}}\label{group___majority_voter_ga93ec5006d2e0a77a21f35a7e3c1ca827}
+
+\item 
+\hypertarget{group___majority_voter_ga618671bc4830b9ddb3181ac86d119b6b}{\hyperlink{group___majority_voter_ga618671bc4830b9ddb3181ac86d119b6b}{N} {\bfseries {\bfseries \textcolor{vhdlchar}{natural}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{4} \textcolor{vhdlchar}{ }}}}\label{group___majority_voter_ga618671bc4830b9ddb3181ac86d119b6b}
+
+\end{DoxyCompactItemize}
+\subsection*{Ports}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{group___majority_voter_ga5a138d36775773e82950ee12e1f944de}{\hyperlink{group___majority_voter_ga5a138d36775773e82950ee12e1f944de}{data\+\_\+in}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+\+V\+E\+C\+T\+O\+R}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+operand}\textcolor{vhdlchar}{$\ast$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+bit\+\_\+for\+\_\+operand}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga5a138d36775773e82950ee12e1f944de}
+
+\item 
+\hypertarget{group___majority_voter_ga55e1fcd272414c24dc7f669e0050e8cc}{\hyperlink{group___majority_voter_ga55e1fcd272414c24dc7f669e0050e8cc}{data\+\_\+out}  {\bfseries {\bfseries \textcolor{vhdlchar}{out}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+\+V\+E\+C\+T\+O\+R}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+operand}\textcolor{vhdlchar}{$\ast$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+bit\+\_\+for\+\_\+operand}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga55e1fcd272414c24dc7f669e0050e8cc}
+
+\item 
+\hypertarget{group___majority_voter_gae267849523b1c1f9f7ec27e888f16b76}{\hyperlink{group___majority_voter_gae267849523b1c1f9f7ec27e888f16b76}{a}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gae267849523b1c1f9f7ec27e888f16b76}
+
+\item 
+\hypertarget{group___majority_voter_ga07cae6968507bccfad6a655cd6d5c709}{\hyperlink{group___majority_voter_ga07cae6968507bccfad6a655cd6d5c709}{b}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga07cae6968507bccfad6a655cd6d5c709}
+
+\item 
+\hypertarget{group___majority_voter_gaa9dd88146339eb59a852432f2ac9b902}{\hyperlink{group___majority_voter_gaa9dd88146339eb59a852432f2ac9b902}{res\+\_\+in}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gaa9dd88146339eb59a852432f2ac9b902}
+
+\item 
+\hypertarget{group___majority_voter_gab3e0985b4eabe8ffdbb4b06c5396c438}{\hyperlink{group___majority_voter_gab3e0985b4eabe8ffdbb4b06c5396c438}{res\+\_\+out}  {\bfseries {\bfseries \textcolor{vhdlchar}{out}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gab3e0985b4eabe8ffdbb4b06c5396c438}
+
+\item 
+\hypertarget{group___majority_voter_ga3d6cfc8eb92a4fa7bd17df688efa5522}{\hyperlink{group___majority_voter_ga3d6cfc8eb92a4fa7bd17df688efa5522}{add\+\_\+1}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga3d6cfc8eb92a4fa7bd17df688efa5522}
+
+\item 
+\hypertarget{group___majority_voter_gaf7639b8ec31b7bb5b1d72d1796d5833e}{\hyperlink{group___majority_voter_gaf7639b8ec31b7bb5b1d72d1796d5833e}{add\+\_\+2}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gaf7639b8ec31b7bb5b1d72d1796d5833e}
+
+\item 
+\hypertarget{group___majority_voter_gab93e0e530f7cfe8f44daa9285209cca1}{\hyperlink{group___majority_voter_gab93e0e530f7cfe8f44daa9285209cca1}{carry\+\_\+in}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gab93e0e530f7cfe8f44daa9285209cca1}
+
+\item 
+\hypertarget{group___majority_voter_gafcc7c006376592bcf77bccdcfd0a99bc}{\hyperlink{group___majority_voter_gafcc7c006376592bcf77bccdcfd0a99bc}{carry\+\_\+out}  {\bfseries {\bfseries \textcolor{vhdlchar}{out}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gafcc7c006376592bcf77bccdcfd0a99bc}
+
+\item 
+\hypertarget{group___majority_voter_ga869bdd6b2525c2745b2cc24818de1a72}{\hyperlink{group___majority_voter_ga869bdd6b2525c2745b2cc24818de1a72}{sum}  {\bfseries {\bfseries \textcolor{vhdlchar}{out}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga869bdd6b2525c2745b2cc24818de1a72}
+
+\item 
+\hypertarget{group___majority_voter_ga6231b307b7958b6060563aa2a93d345a}{\hyperlink{group___majority_voter_ga6231b307b7958b6060563aa2a93d345a}{clk}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga6231b307b7958b6060563aa2a93d345a}
+
+\item 
+\hypertarget{group___majority_voter_ga8881084de0fcf748e41bd0fd1028445e}{\hyperlink{group___majority_voter_ga8881084de0fcf748e41bd0fd1028445e}{reset\+\_\+n}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga8881084de0fcf748e41bd0fd1028445e}
+
+\item 
+\hypertarget{group___majority_voter_ga359e3b0c94c0e1466b7a2b503b3623be}{\hyperlink{group___majority_voter_ga359e3b0c94c0e1466b7a2b503b3623be}{data\+\_\+in}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+\+V\+E\+C\+T\+O\+R}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+operand}\textcolor{vhdlchar}{$\ast$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+bit\+\_\+for\+\_\+operand}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga359e3b0c94c0e1466b7a2b503b3623be}
+
+\item 
+\hypertarget{group___majority_voter_ga7087cf66799b189f1ad9c93f82a39a50}{\hyperlink{group___majority_voter_ga7087cf66799b189f1ad9c93f82a39a50}{data\+\_\+out}  {\bfseries {\bfseries \textcolor{vhdlchar}{out}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+\+V\+E\+C\+T\+O\+R}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+bit\+\_\+for\+\_\+operand}\textcolor{vhdlchar}{+}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{natural}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{log2}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{real}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+operand}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga7087cf66799b189f1ad9c93f82a39a50}
+
+\item 
+\hypertarget{group___majority_voter_gaafe8d8f538bf4e2bdb9b8a73b793dad7}{\hyperlink{group___majority_voter_gaafe8d8f538bf4e2bdb9b8a73b793dad7}{data\+\_\+in}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+\+V\+E\+C\+T\+O\+R}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gaafe8d8f538bf4e2bdb9b8a73b793dad7}
+
+\item 
+\hypertarget{group___majority_voter_ga9237ccbc80d19822650f7ef1180770fd}{\hyperlink{group___majority_voter_ga9237ccbc80d19822650f7ef1180770fd}{data\+\_\+cmp}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+\+V\+E\+C\+T\+O\+R}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga9237ccbc80d19822650f7ef1180770fd}
+
+\item 
+\hypertarget{group___majority_voter_gab78b887b4d5060c44e453704d8846372}{\hyperlink{group___majority_voter_gab78b887b4d5060c44e453704d8846372}{data\+\_\+out}  {\bfseries {\bfseries \textcolor{vhdlchar}{out}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gab78b887b4d5060c44e453704d8846372}
+
+\item 
+\hypertarget{group___majority_voter_ga6231b307b7958b6060563aa2a93d345a}{\hyperlink{group___majority_voter_ga6231b307b7958b6060563aa2a93d345a}{clk}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga6231b307b7958b6060563aa2a93d345a}
+
+\item 
+\hypertarget{group___majority_voter_ga8881084de0fcf748e41bd0fd1028445e}{\hyperlink{group___majority_voter_ga8881084de0fcf748e41bd0fd1028445e}{reset\+\_\+n}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga8881084de0fcf748e41bd0fd1028445e}
+
+\item 
+\hypertarget{group___majority_voter_gaafe8d8f538bf4e2bdb9b8a73b793dad7}{\hyperlink{group___majority_voter_gaafe8d8f538bf4e2bdb9b8a73b793dad7}{data\+\_\+in}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+\+V\+E\+C\+T\+O\+R}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gaafe8d8f538bf4e2bdb9b8a73b793dad7}
+
+\item 
+\hypertarget{group___majority_voter_ga172bddca6a16c705b70242573b2df8e9}{\hyperlink{group___majority_voter_ga172bddca6a16c705b70242573b2df8e9}{majority}  {\bfseries {\bfseries \textcolor{vhdlchar}{out}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga172bddca6a16c705b70242573b2df8e9}
+
+\item 
+\hypertarget{group___majority_voter_gad166bdfb934fb9b5f9d934bc77e58e21}{\hyperlink{group___majority_voter_gad166bdfb934fb9b5f9d934bc77e58e21}{X}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+\+V\+E\+C\+T\+O\+R}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{3} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gad166bdfb934fb9b5f9d934bc77e58e21}
+
+\item 
+\hypertarget{group___majority_voter_ga6f34466d04aa5a2a4a3313b99753df61}{\hyperlink{group___majority_voter_ga6f34466d04aa5a2a4a3313b99753df61}{C0}  {\bfseries {\bfseries \textcolor{vhdlchar}{out}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga6f34466d04aa5a2a4a3313b99753df61}
+
+\item 
+\hypertarget{group___majority_voter_gaf3a15fc1c76ca3d55f4c8d227d190085}{\hyperlink{group___majority_voter_gaf3a15fc1c76ca3d55f4c8d227d190085}{C1}  {\bfseries {\bfseries \textcolor{vhdlchar}{out}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gaf3a15fc1c76ca3d55f4c8d227d190085}
+
+\item 
+\hypertarget{group___majority_voter_gafcc18913336fb764fc05b7d7e4753946}{\hyperlink{group___majority_voter_gafcc18913336fb764fc05b7d7e4753946}{C2}  {\bfseries {\bfseries \textcolor{vhdlchar}{out}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gafcc18913336fb764fc05b7d7e4753946}
+
+\item 
+\hypertarget{group___majority_voter_gaafe8d8f538bf4e2bdb9b8a73b793dad7}{\hyperlink{group___majority_voter_gaafe8d8f538bf4e2bdb9b8a73b793dad7}{data\+\_\+in}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+\+V\+E\+C\+T\+O\+R}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gaafe8d8f538bf4e2bdb9b8a73b793dad7}
+
+\item 
+\hypertarget{group___majority_voter_ga2eb4ff23a26a8055101d64caa36f16ed}{\hyperlink{group___majority_voter_ga2eb4ff23a26a8055101d64caa36f16ed}{data\+\_\+out}  {\bfseries {\bfseries \textcolor{vhdlchar}{out}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+\+V\+E\+C\+T\+O\+R}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{4} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga2eb4ff23a26a8055101d64caa36f16ed}
+
+\item 
+\hypertarget{group___majority_voter_ga45c8fb904508ebf47bf8113b52bab3b2}{\hyperlink{group___majority_voter_ga45c8fb904508ebf47bf8113b52bab3b2}{x}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+\+V\+E\+C\+T\+O\+R}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{N}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga45c8fb904508ebf47bf8113b52bab3b2}
+
+\item 
+\hypertarget{group___majority_voter_ga580c4107150f1a8ce9f0f25fcbb33f08}{\hyperlink{group___majority_voter_ga580c4107150f1a8ce9f0f25fcbb33f08}{y}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+\+V\+E\+C\+T\+O\+R}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{N}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga580c4107150f1a8ce9f0f25fcbb33f08}
+
+\item 
+\hypertarget{group___majority_voter_gab93e0e530f7cfe8f44daa9285209cca1}{\hyperlink{group___majority_voter_gab93e0e530f7cfe8f44daa9285209cca1}{carry\+\_\+in}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gab93e0e530f7cfe8f44daa9285209cca1}
+
+\item 
+\hypertarget{group___majority_voter_gafcc7c006376592bcf77bccdcfd0a99bc}{\hyperlink{group___majority_voter_gafcc7c006376592bcf77bccdcfd0a99bc}{carry\+\_\+out}  {\bfseries {\bfseries \textcolor{vhdlchar}{out}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gafcc7c006376592bcf77bccdcfd0a99bc}
+
+\item 
+\hypertarget{group___majority_voter_ga1e89beb6ed04c1a4951aeb8c68b5cca3}{\hyperlink{group___majority_voter_ga1e89beb6ed04c1a4951aeb8c68b5cca3}{sum}  {\bfseries {\bfseries \textcolor{vhdlchar}{out}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+\+V\+E\+C\+T\+O\+R}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{N}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga1e89beb6ed04c1a4951aeb8c68b5cca3}
+
+\end{DoxyCompactItemize}
+\subsection*{Signals}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{group___majority_voter_ga95ce3469b10a78ad004849446d049948}{\hyperlink{group___majority_voter_ga95ce3469b10a78ad004849446d049948}{tmp\+\_\+in} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+operand}\textcolor{vhdlchar}{$\ast$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+bit\+\_\+for\+\_\+operand}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{others}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{$>$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga95ce3469b10a78ad004849446d049948}
+
+\item 
+\hypertarget{group___majority_voter_gabbb719a4a76d5bb99edb0ed96b05f7ed}{\hyperlink{group___majority_voter_gabbb719a4a76d5bb99edb0ed96b05f7ed}{tmp\+\_\+out} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+operand}\textcolor{vhdlchar}{$\ast$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+bit\+\_\+for\+\_\+operand}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{others}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{$>$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gabbb719a4a76d5bb99edb0ed96b05f7ed}
+
+\item 
+\hypertarget{group___majority_voter_ga052a90adf60bb3fc0352fc16b4d22cc6}{\hyperlink{group___majority_voter_ga052a90adf60bb3fc0352fc16b4d22cc6}{tmp1} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga052a90adf60bb3fc0352fc16b4d22cc6}
+
+\item 
+\hypertarget{group___majority_voter_gaa2bb8e3a49b58e114167a4a35318f363}{\hyperlink{group___majority_voter_gaa2bb8e3a49b58e114167a4a35318f363}{tmp2} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gaa2bb8e3a49b58e114167a4a35318f363}
+
+\item 
+\hypertarget{group___majority_voter_ga9f50761ba7cfe80836abd801ef32b402}{\hyperlink{group___majority_voter_ga9f50761ba7cfe80836abd801ef32b402}{tmp3} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga9f50761ba7cfe80836abd801ef32b402}
+
+\item 
+\hypertarget{group___majority_voter_gaf711b57d5b395ce10325740842940766}{\hyperlink{group___majority_voter_gaf711b57d5b395ce10325740842940766}{tmp\+\_\+sum} {\bfseries \textcolor{vhdlchar}{tmp\+\_\+sum\+\_\+array}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{natural}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{log2}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{real}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+operand}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gaf711b57d5b395ce10325740842940766}
+
+\item 
+\hypertarget{group___majority_voter_gad9c49512af33fdd0018c28b9da41edf7}{\hyperlink{group___majority_voter_gad9c49512af33fdd0018c28b9da41edf7}{tmp\+\_\+sum\+\_\+buffer} {\bfseries \textcolor{vhdlchar}{tmp\+\_\+sum\+\_\+array}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{natural}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{log2}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{real}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{number\+\_\+operand}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gad9c49512af33fdd0018c28b9da41edf7}
+
+\item 
+\hypertarget{group___majority_voter_ga7ce2df59fd8a6a331bc933762fd3ee1a}{\hyperlink{group___majority_voter_ga7ce2df59fd8a6a331bc933762fd3ee1a}{tmp\+\_\+res} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{others}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{$>$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga7ce2df59fd8a6a331bc933762fd3ee1a}
+
+\item 
+\hypertarget{group___majority_voter_ga39037c3b2eefb07064cdaca0a2392a27}{\hyperlink{group___majority_voter_ga39037c3b2eefb07064cdaca0a2392a27}{parallel\+\_\+counter\+\_\+block\+\_\+in} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{others}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{$>$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga39037c3b2eefb07064cdaca0a2392a27}
+
+\item 
+\hypertarget{group___majority_voter_ga2c47195cf5e24e129c773df1c995b6dd}{\hyperlink{group___majority_voter_ga2c47195cf5e24e129c773df1c995b6dd}{parallel\+\_\+counter\+\_\+block\+\_\+out} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{4} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{others}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{$>$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga2c47195cf5e24e129c773df1c995b6dd}
+
+\item 
+\hypertarget{group___majority_voter_ga81ff6a352ebca2c65ca37c57140f74f7}{\hyperlink{group___majority_voter_ga81ff6a352ebca2c65ca37c57140f74f7}{generic\+\_\+adder\+\_\+in} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{4} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{others}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{$>$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga81ff6a352ebca2c65ca37c57140f74f7}
+
+\item 
+\hypertarget{group___majority_voter_gad66a930b905403c8de960c90700fef81}{\hyperlink{group___majority_voter_gad66a930b905403c8de960c90700fef81}{generic\+\_\+adder\+\_\+out} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{3} \textcolor{vhdlchar}{+}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{natural}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{log2}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{real}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{4} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{others}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{$>$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gad66a930b905403c8de960c90700fef81}
+
+\item 
+\hypertarget{group___majority_voter_ga3997ce10e51f5483e537ad2501b45e4b}{\hyperlink{group___majority_voter_ga3997ce10e51f5483e537ad2501b45e4b}{data\+\_\+compare\+\_\+in} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{3} \textcolor{vhdlchar}{+}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{natural}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{log2}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{real}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{4} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{others}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{$>$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga3997ce10e51f5483e537ad2501b45e4b}
+
+\item 
+\hypertarget{group___majority_voter_gab167d306980c97c5da2938d61d469233}{\hyperlink{group___majority_voter_gab167d306980c97c5da2938d61d469233}{data\+\_\+compare\+\_\+cmp} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{3} \textcolor{vhdlchar}{+}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{natural}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{log2}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{real}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{4} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{others}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{$>$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gab167d306980c97c5da2938d61d469233}
+
+\item 
+\hypertarget{group___majority_voter_ga76ef71ba4a3f37672619fd8fa31b5e68}{\hyperlink{group___majority_voter_ga76ef71ba4a3f37672619fd8fa31b5e68}{data\+\_\+compare\+\_\+out} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga76ef71ba4a3f37672619fd8fa31b5e68}
+
+\item 
+\hypertarget{group___majority_voter_ga51f19028d9f31cde99c97f5e7b158a99}{\hyperlink{group___majority_voter_ga51f19028d9f31cde99c97f5e7b158a99}{tmp\+\_\+cout\+\_\+0} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga51f19028d9f31cde99c97f5e7b158a99}
+
+\item 
+\hypertarget{group___majority_voter_ga0ab6d73fb40661adda83c7de2cb1d9da}{\hyperlink{group___majority_voter_ga0ab6d73fb40661adda83c7de2cb1d9da}{tmp\+\_\+cout\+\_\+1} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga0ab6d73fb40661adda83c7de2cb1d9da}
+
+\item 
+\hypertarget{group___majority_voter_ga5e714c81785d790813dc3d52fa57194f}{\hyperlink{group___majority_voter_ga5e714c81785d790813dc3d52fa57194f}{tmp\+\_\+cout\+\_\+2} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga5e714c81785d790813dc3d52fa57194f}
+
+\item 
+\hypertarget{group___majority_voter_ga3b061b2fd5448bfab44d1d2a4bf137fd}{\hyperlink{group___majority_voter_ga3b061b2fd5448bfab44d1d2a4bf137fd}{tmp\+\_\+sum\+\_\+0} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga3b061b2fd5448bfab44d1d2a4bf137fd}
+
+\item 
+\hypertarget{group___majority_voter_ga638b5ddda538a6bce1b86e07530ad8d1}{\hyperlink{group___majority_voter_ga638b5ddda538a6bce1b86e07530ad8d1}{tmp\+\_\+sum\+\_\+1} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga638b5ddda538a6bce1b86e07530ad8d1}
+
+\item 
+\hypertarget{group___majority_voter_gaf1f4ed8f2fb55aed13f16ddd56d6fa7d}{\hyperlink{group___majority_voter_gaf1f4ed8f2fb55aed13f16ddd56d6fa7d}{tmp\+\_\+sum\+\_\+2} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gaf1f4ed8f2fb55aed13f16ddd56d6fa7d}
+
+\item 
+\hypertarget{group___majority_voter_ga3c015bf0e11d9400cf76f6793ac08331}{\hyperlink{group___majority_voter_ga3c015bf0e11d9400cf76f6793ac08331}{tmp\+\_\+in\+\_\+parallel\+\_\+conter4} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga3c015bf0e11d9400cf76f6793ac08331}
+
+\item 
+\hypertarget{group___majority_voter_gaec54eb8f08ad2fe7f16f15c70aad22a0}{\hyperlink{group___majority_voter_gaec54eb8f08ad2fe7f16f15c70aad22a0}{tmp\+\_\+out\+\_\+parellel\+\_\+counter4} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{4} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{others}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{$>$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_gaec54eb8f08ad2fe7f16f15c70aad22a0}
+
+\item 
+\hypertarget{group___majority_voter_ga2943a61ba696a3860c97e0fc3e492416}{\hyperlink{group___majority_voter_ga2943a61ba696a3860c97e0fc3e492416}{tmp\+\_\+carry} {\bfseries \textcolor{vhdlchar}{std\+\_\+logic\+\_\+vector}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{N}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{others}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{$>$}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{'}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{group___majority_voter_ga2943a61ba696a3860c97e0fc3e492416}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Descrizione dettagliata}

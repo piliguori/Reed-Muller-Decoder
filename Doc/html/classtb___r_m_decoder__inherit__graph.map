@@ -1,0 +1,16 @@
+<map id="tb_RMDecoder" name="tb_RMDecoder">
+<area shape="rect" id="node2" href="$class_r_m_decoder.html" title="Implementazione VHDL del decodificatore per codici di Reed&#45;Muller(1,m) " alt="" coords="149,379,241,405"/>
+<area shape="rect" id="node3" href="$class_generic_buffer.html" title="Registro di dimensione generica. " alt="" coords="5,304,123,331"/>
+<area shape="rect" id="node4" href="$class_butterfly_cell.html" title="implementazione VHDL dello swap usato nel decodificatore di Reed&#45;Muller " alt="" coords="147,304,242,331"/>
+<area shape="rect" id="node5" href="$classmajority__voter.html" title="Implementazione VHDL Structural del majority voter. " alt="" coords="266,304,385,331"/>
+<area shape="rect" id="node6" href="$classparallel__counter__block.html" title="Implementazione VHDL Structural del Modulo 1 : genera width/4 contatori paralleli a 4 bit..." alt="" coords="62,229,213,256"/>
+<area shape="rect" id="node7" href="$classparallel__counter__4.html" title="parallel_counter_4" alt="" coords="70,155,197,181"/>
+<area shape="rect" id="node8" href="$classfull__adder.html" title="full_adder(3)" alt="" coords="87,80,180,107"/>
+<area shape="rect" id="node9" href="$classgeneric__adder__pipelined.html" title="Implementazione VHDL Structural di un addizionatore generico pipelined : M operandi di N bit..." alt="" coords="245,229,406,256"/>
+<area shape="rect" id="node10" href="$classadder__block.html" title="Implementazione VHDL Structural di un generico livello del componente generic_adder. Tale livello è costituito da 2^level addizionatori che lavorano in parallelo, di dimensione dipendente dal livello corrente: N = number_bit_for_operand + log2(number_operand)&#45;level&#45;1. " alt="" coords="221,155,313,181"/>
+<area shape="rect" id="node11" href="$classripple__carry__adder.html" title="Implementazione VHDL Structural di un Ripple Carry Adder generico a N bit. " alt="" coords="204,80,332,107"/>
+<area shape="rect" id="node12" href="$classfull__adder.html" title="full_adder" alt="" coords="229,5,307,32"/>
+<area shape="rect" id="node13" href="$class_generic_buffer.html" title="Registro di dimensione generica. " alt="" coords="337,155,439,181"/>
+<area shape="rect" id="node14" href="$classgeneric__comparator.html" title="Implementazione VHDL Structural di un generico comparatore a maggioranza di due stringhe di width bit..." alt="" coords="445,229,581,256"/>
+<area shape="rect" id="node15" href="$classcomparator2bit.html" title="Implementazione VHDL Data Flow di un comparatore a 2 bit che tiene conto anche del risutato di un con..." alt="" coords="463,155,571,181"/>
+</map>

@@ -1,0 +1,77 @@
+\hypertarget{classparallel__counter__block}{\section{parallel\+\_\+counter\+\_\+block Entity Reference}
+\label{classparallel__counter__block}\index{parallel\+\_\+counter\+\_\+block@{parallel\+\_\+counter\+\_\+block}}
+}
+
+
+Implementazione V\+H\+D\+L \hyperlink{classparallel__counter__block_1_1_structural}{Structural} del Modulo 1 \+: genera width/4 contatori paralleli a 4 bit. Data una stringa di input di width bit, multipla di 4, assegna a ogni contatore un nibble. Ogni contatore parallelo a 4 bit codifica in binario il numero di 1 presente nel nibble di competenza.  
+
+
+
+
+Diagramma delle classi per parallel\+\_\+counter\+\_\+block\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{classparallel__counter__block__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagramma di collaborazione per parallel\+\_\+counter\+\_\+block\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=193pt]{classparallel__counter__block__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Entities}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classparallel__counter__block_1_1_structural}{Structural} architecture
+\end{DoxyCompactItemize}
+\subsection*{Libraries}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{classparallel__counter__block_gae4f03c286607f3181e16b9aa12d0c6d4}{\hyperlink{group___majority_voter_gae4f03c286607f3181e16b9aa12d0c6d4}{I\+E\+E\+E} }\label{classparallel__counter__block_gae4f03c286607f3181e16b9aa12d0c6d4}
+
+\end{DoxyCompactItemize}
+\subsection*{Use Clauses}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{classparallel__counter__block_gaa4b2b25246a821511120e3149b003563}{\hyperlink{group___majority_voter_gaa4b2b25246a821511120e3149b003563}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+1164}   }\label{classparallel__counter__block_gaa4b2b25246a821511120e3149b003563}
+
+\end{DoxyCompactItemize}
+\subsection*{Generics}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{classparallel__counter__block_ga93ec5006d2e0a77a21f35a7e3c1ca827}{\hyperlink{group___majority_voter_ga93ec5006d2e0a77a21f35a7e3c1ca827}{width} {\bfseries {\bfseries \textcolor{vhdlchar}{N\+A\+T\+U\+R\+A\+L}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{\+:}\textcolor{vhdlchar}{=}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{8} \textcolor{vhdlchar}{ }}}}\label{classparallel__counter__block_ga93ec5006d2e0a77a21f35a7e3c1ca827}
+
+\end{DoxyCompactItemize}
+\subsection*{Ports}
+ \begin{DoxyCompactItemize}
+\item 
+\hypertarget{classparallel__counter__block_gaafe8d8f538bf4e2bdb9b8a73b793dad7}{\hyperlink{group___majority_voter_gaafe8d8f538bf4e2bdb9b8a73b793dad7}{data\+\_\+in}  {\bfseries {\bfseries \textcolor{vhdlchar}{in}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+\+V\+E\+C\+T\+O\+R}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{classparallel__counter__block_gaafe8d8f538bf4e2bdb9b8a73b793dad7}
+
+\item 
+\hypertarget{classparallel__counter__block_ga2eb4ff23a26a8055101d64caa36f16ed}{\hyperlink{group___majority_voter_ga2eb4ff23a26a8055101d64caa36f16ed}{data\+\_\+out}  {\bfseries {\bfseries \textcolor{vhdlchar}{out}\textcolor{vhdlchar}{ }}} {\bfseries \textcolor{vhdlchar}{S\+T\+D\+\_\+\+L\+O\+G\+I\+C\+\_\+\+V\+E\+C\+T\+O\+R}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{(}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{width}\textcolor{vhdlchar}{/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{4} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{-\/}\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{1} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{downto}\textcolor{vhdlchar}{ }\textcolor{vhdlchar}{ } \textcolor{vhdldigit}{0} \textcolor{vhdlchar}{ }\textcolor{vhdlchar}{)}\textcolor{vhdlchar}{ }} }\label{classparallel__counter__block_ga2eb4ff23a26a8055101d64caa36f16ed}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Descrizione dettagliata}
+Implementazione V\+H\+D\+L \hyperlink{classparallel__counter__block_1_1_structural}{Structural} del Modulo 1 \+: genera width/4 contatori paralleli a 4 bit. Data una stringa di input di width bit, multipla di 4, assegna a ogni contatore un nibble. Ogni contatore parallelo a 4 bit codifica in binario il numero di 1 presente nel nibble di competenza. 
+
+
+\begin{DoxyParams}{Parametri}
+{\em width\mbox{[}in\mbox{]}} & parametro che determina la dimensione dell'input del componente, width multiplo di 4\\
+\hline
+{\em data\+\_\+in\mbox{[}in\mbox{]}} & stringa di bit di input di dimensione width su cui il componente lavora \\
+\hline
+{\em data\+\_\+out\mbox{[}out\mbox{]}} & stringa di bit di uscita di dimensione width-\/(width/4) che è la concatenazione degli output dei singoli contatori paralleli a 4 bit =$>$ concatenzaione di stringhe da 3 bit. \\
+\hline
+\end{DoxyParams}
+
+
+La documentazione per questa classe è stata generata a partire dal seguente file\+:\begin{DoxyCompactItemize}
+\item 
+R\+M\+Decoder/\+Majority\+Voter/\hyperlink{parallel__counter__block_8vhd}{parallel\+\_\+counter\+\_\+block.\+vhd}\end{DoxyCompactItemize}

@@ -1,0 +1,4 @@
+<map id="adder_block" name="adder_block">
+<area shape="rect" id="node2" href="$classripple__carry__adder.html" title="Implementazione VHDL Structural di un Ripple Carry Adder generico a N bit. " alt="" coords="5,80,133,107"/>
+<area shape="rect" id="node3" href="$classfull__adder.html" title="full_adder" alt="" coords="30,5,109,32"/>
+</map>
